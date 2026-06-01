@@ -37,7 +37,7 @@
 | 库 | 文件 | 目标条目 | 状态 |
 |---|---|---|---|
 | 视频模型数据库 | `video-models.md` | ~15 | ✅ 已建（14条） |
-| 表演数据库（微表情） | `performance-microexpressions.md` | ~55 | 🔨 第一批 24/55 |
+| 表演数据库（微表情） | `performance-microexpressions.md` | ~55 | ✅ 已建（55条） |
 | 灯光数据库 | `lighting.md` | ~35 | ⬜ 待建 |
 | 构图数据库 | `composition.md` | ~22 | ⬜ 待建 |
 | 运镜数据库 | `camera-movement.md` | ~22 | ⬜ 待建 |

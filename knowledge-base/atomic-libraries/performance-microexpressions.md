@@ -243,10 +243,278 @@ FACS动作单元(AU) / 肢体语言 / 呼吸与声音特征 /
 - **视觉关键词：** frozen shock then crumbling, delayed reaction, welling tears, hand going limp
 - **表演案例：** 听到背叛真相的延迟崩塌
 
+# 三、进阶 / 复杂情绪（25–55）
+
+## 25. 得意 / 自满
+- **面部分解：** 下巴微抬；单/双侧嘴角上扬并收紧；眼睑微眯（满意）；眉轻挑
+- **FACS：** AU12 + AU14 + 下巴抬 + AU2(轻)
+- **肢体语言：** 挺胸、抱臂或叉腰、身体后靠、晃头
+- **呼吸与声音：** 轻哼、语气上扬拖长、得意的"哈"
+- **视觉关键词：** smug grin, chin raised, narrowed satisfied eyes, self-satisfied smirk, puffed chest
+- **表演案例：** 计谋得逞后的洋洋自得
+
+## 26. 嫉妒 / 眼红
+- **面部分解：** 眉微皱；目光紧盯目标（执着凝视）；嘴角下压或抿；眼神阴沉；轻咬牙
+- **FACS：** AU4 + AU7 + AU24 + 固定凝视
+- **肢体语言：** 身体僵、手攥紧、视线追随对方
+- **呼吸与声音：** 短促呼气、压低阴阳怪气的语气
+- **易混淆区分：** 与愤怒区别——嫉妒含"盯住某对象"的执着＋隐藏
+- **视觉关键词：** fixed envious stare, subtle scowl, clenched jaw, simmering resentment, eyes tracking rival
+- **表演案例：** 看到情敌得宠时暗自咬牙
+
+## 27. 愧疚 / 自责
+- **面部分解：** 目光下垂回避（不敢直视）；眉内角提；嘴角下拉；低头；可能咬唇
+- **FACS：** AU1 + AU15 + 视线下移
+- **肢体语言：** 含肩低头、手不安、后缩
+- **呼吸与声音：** 声音低弱、欲言又止、叹气
+- **易混淆区分：** 与悲伤区别——愧疚有"不敢看对方"的回避
+- **视觉关键词：** lowered guilty gaze, avoiding eye contact, inner brow raised, bowed head, biting lip
+- **表演案例：** 做错事后不敢抬头
+
+## 28. 警惕 / 戒备
+- **面部分解：** 眉微压；眼睛快速扫视环境；眼睑微收；嘴抿；下巴微收
+- **FACS：** AU4(轻) + AU7 + 眼球快速移动
+- **肢体语言：** 身体绷紧半侧、重心下沉、手护身前、缓慢移动
+- **呼吸与声音：** 屏息或浅呼吸、压低声音
+- **视觉关键词：** alert scanning eyes, lowered brows, tense guarded posture, on guard, darting watchful glance
+- **表演案例：** 进入未知危险区时的环视
+
+## 29. 困惑 / 迷茫
+- **面部分解：** 单侧眉上挑或双眉微蹙；眼神游移；嘴微张或撇；头微歪
+- **FACS：** AU4 + 单侧 AU2 + 头倾
+- **肢体语言：** 歪头、挠头、摊手、停顿
+- **呼吸与声音：** "啊？""嗯…？"上扬疑问、停顿
+- **视觉关键词：** furrowed confused brow, one raised eyebrow, tilted head, puzzled searching eyes, scratching head
+- **表演案例：** 听到不合逻辑的话时的歪头
+
+## 30. 陶醉 / 沉醉
+- **面部分解：** 微闭眼或眼神柔和失焦；嘴角松松上扬；眉舒展；面部放松
+- **FACS：** AU43(半闭) + AU12(轻) + AU6(柔)
+- **肢体语言：** 头微仰或微晃、身体放松摇曳、手轻抚
+- **呼吸与声音：** 深长呼吸、满足的"嗯~"、轻哼
+- **视觉关键词：** half-closed blissful eyes, soft dreamy gaze, gentle smile, enraptured relaxed face, savoring
+- **表演案例：** 品尝美食/听动人音乐时的沉醉
+
+## 31. 尴尬 / 窘迫
+- **面部分解：** 脸红；勉强僵硬的笑；视线乱飘回避；抿嘴；可能摸脸
+- **FACS：** AU12(僵) + AU24 + 视线回避 + 脸颊泛红
+- **肢体语言：** 摸后颈、搓手、缩脖、脚动
+- **呼吸与声音：** 干笑"哈哈…"、结巴、清嗓
+- **易混淆区分：** 与羞愧区别——尴尬偏社交不适且常带干笑，羞愧更沉重
+- **视觉关键词：** awkward forced smile, blushing, darting eyes, rubbing neck, flustered, nervous chuckle
+- **表演案例：** 当众说错话后的强笑
+
+## 32. 不甘 / 憋屈
+- **面部分解：** 咬牙；眼眶泛红含泪但瞪着；眉皱；嘴角下压颤抖；鼻翼动
+- **FACS：** AU4 + AU7 + AU23 + 泪光
+- **肢体语言：** 攥拳发抖、低头又猛抬、身体绷紧
+- **呼吸与声音：** 粗重鼻息、压抑颤音、咬牙的"凭什么"
+- **易混淆区分：** 愤怒+悲伤+不服三合一，"瞪着却含泪"是关键
+- **视觉关键词：** clenched teeth with teary defiant eyes, trembling suppressed resentment, unwilling, fists shaking
+- **表演案例：** 努力却被否定时红着眼眶咬牙
+
+## 33. 怀疑 / 质疑
+- **面部分解：** 单侧眉挑；眼睑微眯；斜眼打量；嘴角一侧下压；下巴微收
+- **FACS：** 单侧 AU2 + AU7(眯) + 斜视
+- **肢体语言：** 身体微后仰、抱臂、上下打量
+- **呼吸与声音：** 拖长的"哦~是吗？"、停顿审视
+- **视觉关键词：** raised single eyebrow, narrowed skeptical eyes, sidelong scrutinizing glance, doubtful smirk, sizing up
+- **表演案例：** 听到可疑解释时眯眼打量
+
+## 34. 失望
+- **面部分解：** 眼神黯淡下垂；眉先扬后落；嘴角下拉；轻摇头；垂眸
+- **FACS：** AU15 + AU1(轻) + 摇头
+- **肢体语言：** 肩塌、转身、手垂、轻叹
+- **呼吸与声音：** 泄气的叹息、声音低落、"算了"
+- **易混淆区分：** 与悲伤区别——失望常带"摇头/转身"的放弃
+- **视觉关键词：** dimmed downcast eyes, slight head shake, sighing, drooping mouth, deflated, letdown
+- **表演案例：** 期望落空后的摇头叹气
+
+## 35. 期待 / 憧憬
+- **面部分解：** 眼睛发亮放大；眉上扬；嘴微张含笑；目光望向远方/上方
+- **FACS：** AU1 + AU2 + AU5(轻) + AU12(轻)
+- **肢体语言：** 身体前倾、双手交握胸前、踮脚、坐不住
+- **呼吸与声音：** 轻快呼吸、语气上扬充满希望
+- **视觉关键词：** bright hopeful eyes, raised brows, leaning forward eagerly, dreamy upward gaze, anticipation
+- **表演案例：** 等待心上人到来时的雀跃
+
+## 36. 厌倦 / 无聊
+- **面部分解：** 眼皮半垂；目光涣散；面无表情；可能打哈欠；嘴撇
+- **FACS：** AU43(半垂) + 面部松弛
+- **肢体语言：** 托腮、瘫靠、转笔、看表、坐姿散漫
+- **呼吸与声音：** 长叹气、有气无力的"嗯"、拖音
+- **视觉关键词：** half-lidded vacant eyes, propping chin, slouching, yawning, listless, glazed over
+- **表演案例：** 冗长会议中的神游
+
+## 37. 受惊 / 惊吓反射
+- **面部分解：** 瞬间全脸收缩；紧闭眼；眉猛压；缩头（反射性，极快）
+- **FACS：** AU4 + AU5 → AU7 + AU43(瞬闭)
+- **肢体语言：** 全身一震、肩猛耸、双手护头、后跳
+- **呼吸与声音：** 倒抽气、短促惊叫、屏息
+- **易混淆区分：** 与恐惧区别——惊吓是瞬间反射(<0.2s)，恐惧是持续状态
+- **视觉关键词：** startle reflex, flinch, sudden full-body jolt, shoulders jerking up, recoiling, gasp
+- **表演案例：** 背后突然被拍肩的激灵
+
+## 38. 委屈
+- **面部分解：** 眼眶迅速泛红蓄泪；瘪嘴（下唇前推上顶）；眉内角高提；低头又抬眼看人
+- **FACS：** AU1 + AU17 + AU15 + 泪
+- **肢体语言：** 缩肩、绞手、低头、可能扑向人怀
+- **呼吸与声音：** 抽噎前颤音、带哭腔的"我没有…"、吸鼻
+- **易混淆区分：** 中式情感核心——"觉得被冤枉"的瘪嘴＋泪眼看对方
+- **视觉关键词：** quivering pouting lip, welling teary eyes, raised inner brows, looking up wronged, sniffling
+- **表演案例：** 被误会后含泪辩解
+
+## 39. 羞愧 / 羞耻
+- **面部分解：** 深深低头；闭眼或不敢睁；脸涨红；嘴角紧；捂脸
+- **FACS：** AU4 + AU43 + 脸红 + 低头幅度大
+- **肢体语言：** 整个人想缩小、捂脸、转身背对、蹲下
+- **呼吸与声音：** 几不可闻的声音、哽住、"对不起…"
+- **易混淆区分：** 比尴尬更重，有"想消失"的躲藏感
+- **视觉关键词：** deeply bowed head, covering face, flushed with shame, shrinking away, unable to look up
+- **表演案例：** 当众出丑后捂脸蹲下
+
+## 40. 同情 / 怜悯
+- **面部分解：** 眉内角上提；眼神温柔含怜；嘴角微下但柔和；头微侧
+- **FACS：** AU1 + 柔和注视
+- **肢体语言：** 身体前倾靠近、伸手轻抚/搭肩、放慢动作
+- **呼吸与声音：** 放柔语气、轻声安慰、"没事的…"
+- **易混淆区分：** 与悲伤区别——同情是"看向他人"的外向关怀
+- **视觉关键词：** softened pitying gaze, raised inner brows, tender concerned look, reaching out gently, empathy
+- **表演案例：** 看到他人受苦时的轻抚
+
+## 41. 麻木 / 心如死灰
+- **面部分解：** 完全空洞的眼神（死鱼眼）；面无表情；嘴微张松；眨眼极少
+- **FACS：** 全面部松弛、无 AU、凝滞凝视
+- **肢体语言：** 呆坐不动、动作机械、目光放空盯虚空
+- **呼吸与声音：** 浅缓近停滞、声音平板无起伏、单字回应
+- **易混淆区分：** 与平静区别——麻木是"被掏空"的死寂，平静是放松
+- **视觉关键词：** hollow vacant stare, dead eyes, blank affectless face, emotionally numb, thousand-yard stare
+- **表演案例：** 经历巨大创伤后的呆滞
+
+## 42. 狂喜 / 亢奋
+- **面部分解：** 大笑露齿；眼睛发光眯起；眉高扬；满脸放光
+- **FACS：** AU6 + AU12(极) + AU1 + AU2
+- **肢体语言：** 跳跃、振臂、拥抱身边人、手舞足蹈
+- **呼吸与声音：** 大笑、欢呼、高声呐喊、急促兴奋
+- **视觉关键词：** ecstatic beaming grin, sparkling eyes, jumping with joy, arms thrown up, euphoric, exhilarated
+- **表演案例：** 中奖/夺冠瞬间的爆发欢呼
+
+## 43. 隐忍 / 压抑
+- **面部分解：** 刻意维持平静但肌肉紧绷；咬肌鼓动（咬牙）；嘴抿成线；眼神下压克制；太阳穴跳
+- **FACS：** AU24 + AU17 + 咬肌收缩
+- **肢体语言：** 攥拳藏于身侧、肩绷、深吸气强压、僵立
+- **呼吸与声音：** 刻意深长的呼吸控制、从齿缝挤字、声音绷紧发抖
+- **易混淆区分：** 关键是"明显在压抑强烈情绪"的张力外泄
+- **视觉关键词：** tightly suppressed emotion, jaw muscle twitching, pressed lips, controlled trembling, holding back
+- **表演案例：** 听到挑衅强忍不发作
+
+## 44. 好奇
+- **面部分解：** 眼睛睁大发亮；眉上扬；头前伸靠近；嘴微张
+- **FACS：** AU1 + AU2 + AU5(轻) + 前倾
+- **肢体语言：** 凑近、踮脚张望、伸长脖子、手指轻点
+- **呼吸与声音：** 轻"咦？"、上扬探问、屏息细看
+- **易混淆区分：** 与惊讶区别——好奇是持续探究欲，带主动靠近
+- **视觉关键词：** wide curious eyes, raised brows, leaning in to look closer, craning neck, intrigued, inquisitive
+- **表演案例：** 发现新奇事物凑近端详
+
+## 45. 感动 / 动容
+- **面部分解：** 眼眶湿润；眉内角提；嘴角微颤上扬（含泪的笑）；目光柔软凝视
+- **FACS：** AU1 + AU12(轻) + 泪光
+- **肢体语言：** 手抚胸口、微微点头、捂嘴、身体微倾
+- **呼吸与声音：** 哽咽的吸气、颤抖的"谢谢…"、轻抽气
+- **易混淆区分：** "含泪而笑"的正向感动，与心碎相反
+- **视觉关键词：** glistening moved eyes, trembling tender smile, hand on chest, touched, grateful welling tears
+- **表演案例：** 收到意外关怀时红了眼眶
+
+## 46. 怀念 / 追忆
+- **面部分解：** 目光柔和飘向远方；嘴角若有若无的浅笑；眼神失焦；眉微舒
+- **FACS：** 柔和远眺 + AU12(极轻)
+- **肢体语言：** 手轻抚旧物、静止出神、头微仰
+- **呼吸与声音：** 悠长呼吸、轻叹、放缓低柔的语气
+- **视觉关键词：** wistful distant gaze, faint reminiscent smile, eyes losing focus, lost in memory, nostalgic, bittersweet
+- **表演案例：** 翻看旧照片时怅然浅笑
+
+## 47. 恍惚 / 出神
+- **面部分解：** 目光呆滞放空；眼神不聚焦；面部静止；对外界无反应
+- **FACS：** 凝滞凝视、无 AU
+- **肢体语言：** 僵在原地、手中物可能滑落、被叫才一震回神
+- **呼吸与声音：** 平缓无意识、被唤"啊？"猛回神
+- **易混淆区分：** 与麻木区别——恍惚是"思绪飘走"可被唤回，麻木是情感死寂
+- **视觉关键词：** spacing out, unfocused distant stare, lost in thought, zoning out, snapping back when called
+- **表演案例：** 沉浸思绪被叫醒前的呆滞
+
+## 48. 不耐烦
+- **面部分解：** 翻白眼；皱眉；抿嘴或撇嘴；频繁瞥向别处；深吸气
+- **FACS：** AU4 + 眼球上转(翻白眼) + AU24
+- **肢体语言：** 抖腿、手指快速敲击、看表、抱臂、跺脚
+- **呼吸与声音：** 重重叹气、"快点""行了行了"、催促语速
+- **视觉关键词：** rolling eyes, frowning impatiently, tapping fingers, checking time, huffing, foot tapping
+- **表演案例：** 排长队等待时的烦躁
+
+## 49. 怯懦 / 畏缩
+- **面部分解：** 眼神躲闪不敢直视；眉内角提；缩着脸；抿唇
+- **FACS：** AU1 + 视线回避 + 收缩
+- **肢体语言：** 含胸缩肩、身体后缩、双手护身前、小步后退
+- **呼吸与声音：** 细弱发颤的声音、结巴、"我…我不…"
+- **易混淆区分：** 与恐惧区别——怯懦是面对强势者的退缩，偏社交弱势
+- **视觉关键词：** timid averted eyes, cowering hunched posture, meek, flinching back, submissive, shrinking
+- **表演案例：** 被强势者呵斥时的瑟缩
+
+## 50. 苦笑
+- **面部分解：** 嘴角上扬但眉内角悲伤上提；眼神无奈；笑里带涩；轻摇头
+- **FACS：** AU12 + AU1(矛盾) + 摇头
+- **肢体语言：** 摊手、轻耸肩、低头轻笑
+- **呼吸与声音：** 一声无奈轻笑"呵"、自嘲的叹
+- **易混淆区分：** 与"强颜欢笑"近似，但苦笑更主动表达"无奈/自嘲"
+- **视觉关键词：** bitter wry smile, helpless self-mocking grin, sad eyes behind smile, rueful, chuckle with head shake
+- **表演案例：** 面对无解困境的自嘲一笑
+
+## 51. 后怕（惊魂未定）
+- **面部分解：** 危机过后长呼气；抚胸；眼睛仍睁大未褪惊；眉松开又皱
+- **FACS：** AU5(残留) → 长呼气 + AU43
+- **肢体语言：** 手按胸口、扶墙瘫软、拍胸、腿软
+- **呼吸与声音：** 大口喘气后长舒、"吓死我了"、心有余悸的颤
+- **视觉关键词：** catching breath after a scare, hand clutching chest, wide eyes still shaken, shaky relief
+- **表演案例：** 险些出事后的拍胸喘息
+
+## 52. 强忍笑意
+- **面部分解：** 嘴角不断上抽却努力抿住；脸颊鼓；眼睛眯起泛笑意；憋红脸
+- **FACS：** AU12(对抗) + AU24(抿) + AU6
+- **肢体语言：** 捂嘴、低头、肩一耸一耸、转过身
+- **呼吸与声音：** 憋笑的鼻音"噗"、漏气轻笑、岔气
+- **视觉关键词：** suppressing a laugh, lips twitching to hold back smile, puffed cheeks, shaking shoulders, stifled giggle
+- **表演案例：** 严肃场合看到好笑事憋笑
+
+## 53. 娇嗔 / 嗔怒
+- **面部分解：** 假装生气的撅嘴；轻皱鼻；瞪一眼但眼里带笑；扭头
+- **FACS：** AU17(撅) + AU4(假) + 眼带笑意
+- **肢体语言：** 轻捶对方、跺脚、扭身、叉腰
+- **呼吸与声音：** 拖长的"讨厌啦~""哼"、嗲音
+- **易混淆区分：** 恋爱/亲昵中的"假怒真撒娇"，怒中带甜
+- **视觉关键词：** playful pout, mock-angry glare with smiling eyes, cute huff, teasing sulk, turning away coyly
+- **表演案例：** 情侣间被打趣时的撒娇捶打
+
+## 54. 大彻大悟 / 顿悟
+- **面部分解：** 先怔 → 眼睛缓缓睁亮；眉舒展；嘴微张"啊…"；面部由紧转松
+- **FACS：** AU4(困) → AU1 + AU2 + AU5(亮)
+- **肢体语言：** 猛地抬头、身体一震又松、缓缓点头、手一拍
+- **呼吸与声音：** 恍然的吸气、"原来如此…"、释然的笑
+- **视觉关键词：** dawning realization, eyes lighting up, brows lifting in understanding, "aha" moment, slow nod of clarity
+- **表演案例：** 想通关键真相的那一刻
+
+## 55. 心满意足 / 安然
+- **面部分解：** 柔和浅笑；眼神温暖平和；眉完全舒展；面部松弛
+- **FACS：** AU12(轻) + AU6(柔) + 全面部放松
+- **肢体语言：** 舒展靠坐、双手交叠腹前、缓慢满足的呼吸、微微点头
+- **呼吸与声音：** 满足的长舒气、轻柔的"嗯，真好"、温和语调
+- **易混淆区分：** 与喜悦区别——满足是平静持久的暖，喜悦是外放的高峰
+- **视觉关键词：** serene content smile, warm peaceful eyes, fully relaxed brow, settled and at ease, quiet satisfaction
+- **表演案例：** 完成心愿后的安然微笑
+
 ---
 
 ## 使用提示
 - **强度 = 微动作的幅度 × 数量**：隐忍=幅度小、单一部位；爆发=幅度大、多部位联动。
 - **复合情绪靠"矛盾"取胜**：嘴笑+眉悲=强颜欢笑，是最高级的表演细节。
 - **微表情泄漏**（一闪而过的真实情绪）是「撒谎/强装」类的灵魂，生视频时标注"micro-expression flash"。
-- 本批为基础 8 + 复合 16 = **24 条**；剩余（如得意/嫉妒/愧疚/警惕/迷茫/陶醉/尴尬/不甘 等约 30 条）将在下一批补全至 ~55。
+- 本库现共 **55 条**：基础情绪 8 + 复合情绪 16 + 进阶/复杂情绪 31，覆盖影视/短剧绝大多数表演场景。
