@@ -41,7 +41,7 @@
 | 灯光数据库 | `lighting.md` | ~35 | ✅ 已建（36条） |
 | 构图数据库 | `composition.md` | ~22 | ✅ 已建（22条） |
 | 运镜数据库 | `camera-movement.md` | ~22 | ✅ 已建（22条） |
-| 动作数据库 | `action.md` | ~70 | ⬜ 待建 |
+| 动作数据库 | `action.md` | ~70 | ✅ 已建（70条） |
 | 转场数据库 | `transition.md` | ~25 | ⬜ 待建 |
 | 导演风格数据库 | `director-styles.md` | ~40（含国内导演·决策点3） | ⬜ 待建 |
 | 叙事数据库 | `narrative.md` | ~40 | ⬜ 待建 |
