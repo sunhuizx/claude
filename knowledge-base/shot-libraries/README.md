@@ -14,17 +14,19 @@
 ## 子库清单与进度
 | 子库 | 文件 | 条目 | 状态 |
 |---|---|---|---|
-| 静态镜头库 | `static-shots.md` | 38 | 内容就绪 |
-| 运动镜头库 | `motion-shots.md` | 38 | 内容就绪 |
-| 景别镜头库（速查） | `shot-size.md` | 10 | 内容就绪 |
-| 角度镜头库（速查） | `camera-angle.md` | 10 | 内容就绪 |
-| 构图镜头库（速查） | `composition-shots.md` | 15 | 内容就绪 |
-| 情绪镜头库 | `emotion-shots.md` | 16 | 内容就绪 |
-| 主观镜头库 | `pov-shots.md` | ~12 | 待建 |
-| 群像镜头库 | `group-shots.md` | ~15 | 待建 |
-| 环境镜头库 | `environment-shots.md` | ~15 | 待建 |
-| 特效镜头库 | `vfx-shots.md` | ~20 | 待建 |
-| 动漫镜头库 | `anime-shots.md` | ~20 | 待建 |
+| 静态镜头库 | `static-shots.md` | 36 | ✅ 内容就绪 |
+| 运动镜头库 | `motion-shots.md` | 38 | ✅ 内容就绪 |
+| 景别镜头库（速查） | `shot-size.md` | 10 | ✅ 内容就绪 |
+| 角度镜头库（速查） | `camera-angle.md` | 10 | ✅ 内容就绪 |
+| 构图镜头库（速查） | `composition-shots.md` | 15 | ✅ 内容就绪 |
+| 情绪镜头库 | `emotion-shots.md` | 16 | ✅ 内容就绪 |
+| 主观镜头库 | `pov-shots.md` | 19 | ✅ 内容就绪 |
+| 群像镜头库 | `group-shots.md` | 15 | ✅ 内容就绪 |
+| 环境镜头库 | `environment-shots.md` | 15 | ✅ 内容就绪 |
+| 特效镜头库 | `vfx-shots.md` | 74 | ✅ 内容就绪 |
+| 动漫镜头库 | `anime-shots.md` | 18 | ✅ 内容就绪 |
+
+> 合计 266 条，11 个子库全部建成。
 
 ## 设计原则
 - 景别/角度/构图为"维度速查"，交叉索引静态/运动库，零重复。

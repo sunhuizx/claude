@@ -36,11 +36,11 @@
 | 角度镜头库（速查） | `camera-angle.md` | SC-4xx | 10 | ✅ |
 | 构图镜头库（速查） | `composition-shots.md` | SC-5xx | 15 | ✅ |
 | 情绪镜头库 | `emotion-shots.md` | SC-6xx | 16 | ✅ |
-| 主观镜头库 | `pov-shots.md` | SC-7xx | — | ⬜ 待建 |
-| 群像镜头库 | `group-shots.md` | SC-8xx | — | ⬜ 待建 |
-| 环境镜头库 | `environment-shots.md` | SC-9xx | — | ⬜ 待建 |
-| 特效镜头库 | `vfx-shots.md` | SC-10xx | — | ⬜ 待建 |
-| 动漫镜头库 | `anime-shots.md` | SC-11xx | — | ⬜ 待建 |
+| 主观镜头库 | `pov-shots.md` | SC-7xx | 19 | ✅ |
+| 群像镜头库 | `group-shots.md` | SC-8xx | 15 | ✅ |
+| 环境镜头库 | `environment-shots.md` | SC-9xx | 15 | ✅ |
+| 特效镜头库 | `vfx-shots.md` | SC-10xx | 74 | ✅ |
+| 动漫镜头库 | `anime-shots.md` | SC-11xx | 18 | ✅ |
 
 ## 四、23 字段格式
 ```
@@ -57,4 +57,6 @@
 - 视频模型数据库基于 2026 年公开资料核实。
 
 ## 当前总量
-原子库 9 个（约 320 条）+ 成品镜头库 6 个（125 条）= **约 445 条**，已全部落盘推送。
+原子库 9 个（324 条）+ 成品镜头库 11 个（266 条）= **590 条**，已全部落盘推送。
+
+> 成品镜头库 11 个子库均已建成：维度速查 3（景别/角度/构图）+ 内容型 8（静态/运动/情绪/主观/群像/环境/特效/动漫）。
