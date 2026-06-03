@@ -1,6 +1,6 @@
 # 灯光数据库（Lighting Database）
 
-> 原子库 · 共 36 条 ｜ 灯光决定情绪基调，是「同样的画面、不同的灵魂」的关键。
+> 原子库 · 共 44 条 ｜ 灯光决定情绪基调，是「同样的画面、不同的灵魂」的关键。
 > 本库供模块4（提示词生成器）调用，`视觉关键词` 字段可直接复制进生图/生视频提示词。
 
 ## 字段格式
@@ -429,8 +429,116 @@
 
 ---
 
+# 五、特殊与场景光（37–44）
+
+## 37. 舞台演唱会动感光（Concert / Stage Moving Lights）
+- **布光位置：** 多向摇头灯、追光、激光、逆向烟雾光束，机位多角度
+- **光质：** 高强度硬光束 + 烟雾体积感，动态扫射变换
+- **明暗对比：** 极高对比，光束切割黑暗
+- **色温色彩：** 高饱和炫彩（红蓝紫绿），随节拍变色
+- **塑形效果：** 光束扫射、频闪、追光锁定，能量四射
+- **情绪氛围：** 亢奋、狂热、炫目、能量、躁动、盛典
+- **适用场景：** 演唱会、夜店、舞台、电音节、颁奖礼、MV
+- **经典案例：** 烟雾中激光与摇头灯束随鼓点扫射全场
+- **视觉关键词：** concert stage lights, moving head beams, lasers, haze, strobing, vibrant
+- **AI提示词：** `concert stage lighting, sweeping moving-head beams and lasers through haze, vibrant strobing colors, energetic`
+- **风险提示：** 光束需烟雾才有体积感；频闪注意光敏；忌乱无节拍
+
+## 38. 水面焦散波光（Water Caustics）
+- **布光位置：** 光线透过/反射水面，在主体与环境投下流动波纹光
+- **光质：** 流动的网状波光（caustics），柔中带闪动
+- **明暗对比：** 中等，波光在暗背景上游移
+- **色温色彩：** 多偏碧蓝/青绿（泳池/海），或暖金（夕照水面）
+- **塑形效果：** 主体表面爬满流动的水纹光斑，梦幻浮动
+- **情绪氛围：** 梦幻、宁静、清凉、失重、潜意识、唯美
+- **适用场景：** 泳池、水下、海边、浴室、梦境、回忆、水族馆
+- **经典案例：** 泳池边人物身上爬满流动的蓝色波纹光
+- **视觉关键词：** water caustics, rippling reflected light, pool light patterns, shimmering
+- **AI提示词：** `water caustics light, rippling reflections dancing over subject, aqua tones, dreamy shimmering`
+- **风险提示：** 波纹需"流动感"，AI 易做成静态；与水体场景配合
+
+## 39. 投影图案光 Gobo（Dappled / Pattern Light）
+- **布光位置：** 光源透过镂空物（树叶/栅格/百叶/花窗/水纹片）投出图案
+- **光质：** 带图案的斑驳光影（树影/格栅/光斑）
+- **明暗对比：** 中高，图案明暗交织
+- **色温色彩：** 随场景，常自然光或暖光
+- **塑形效果：** 主体与墙面爬满斑驳图案，增层次与氛围
+- **情绪氛围：** 斑驳诗意、慵懒、禁锢（栅格）、自然、神秘、复古
+- **适用场景：** 树荫下、百叶窗、监狱栅格、教堂花窗、林间、慵懒午后
+- **经典案例：** 树影斑驳洒在午睡人物脸上
+- **视觉关键词：** gobo pattern light, dappled leaf shadows, window grid shadow, textured light
+- **AI提示词：** `dappled gobo lighting, leaf-shadow patterns over subject and wall, textured atmospheric shadows`
+- **风险提示：** 与百叶窗光(25)区分在"图案多样"；图案别盖过主体
+
+## 40. 闪电雷暴光（Lightning Flash）
+- **布光位置：** 强冷光从窗/外部瞬间爆闪，伴随短暂全亮再回暗
+- **光质：** 极强冷硬瞬闪，几帧爆亮
+- **明暗对比：** 极端（暗→瞬间惨白→暗）
+- **色温色彩：** 惨白冷蓝，幽冷
+- **塑形效果：** 瞬间照亮全场/剪影，定格惊悚一刻
+- **情绪氛围：** 惊悚、危机、不安、震撼、暴烈、宿命
+- **适用场景：** 雷暴夜、恐怖、惊悚、悬疑、戏剧高潮、揭示
+- **经典案例：** 闪电瞬间照亮窗边伫立的黑影
+- **视觉关键词：** lightning flash, sudden cold strobe through window, stark silhouette, stormy
+- **AI提示词：** `lightning flash lighting, sudden stark cold-blue burst through window, dramatic silhouettes, stormy night`
+- **风险提示：** 配雷声才成立；闪频注意光敏；爆闪时长把握
+
+## 41. 反弹 / 柔板补光（Bounce / Reflector Fill）
+- **布光位置：** 主光经反光板/墙面/地面反弹回填阴影侧
+- **光质：** 极柔的二次反射光，无硬影
+- **明暗对比：** 低，柔和填充暗部
+- **色温色彩：** 随反射面（白板中性/金板暖/银板冷）
+- **塑形效果：** 柔化阴影、降低反差、提亮暗部细节，自然通透
+- **情绪氛围：** 自然、柔和、真实、舒适、亲和
+- **适用场景：** 访谈、人像、自然光补光、纪录片、日常写实、美妆广告
+- **经典案例：** 逆光人物面部用反光板补出柔亮
+- **视觉关键词：** bounce light, reflector fill, soft shadow fill, natural soft lighting
+- **AI提示词：** `soft bounce fill light, reflector filling shadows, low contrast natural flattering light`
+- **风险提示：** 这是"技术补光"，重在自然降反差；过度则平淡无立体
+
+## 42. 彩色凝胶氛围光（Color Gel Wash）
+- **布光位置：** 加色片的光从侧/背/双向打出，染色环境与主体
+- **光质：** 浓郁染色光，可双色对撞
+- **明暗对比：** 中高，色彩边界分明
+- **色温色彩：** 强烈单色或撞色（品红+青、红+蓝、橙+紫）
+- **塑形效果：** 主体被双色光勾勒，半脸异色，时尚张力
+- **情绪氛围：** 时尚、迷离、戏剧、张力、潮流、躁动或暧昧
+- **适用场景：** MV、时尚大片、夜店、人像、海报、潮流广告
+- **经典案例：** 人物左脸品红右脸青蓝的撞色染光
+- **视觉关键词：** color gel lighting, dual-color wash, magenta and cyan, bold colored light
+- **AI提示词：** `color gel lighting, dual-tone magenta-and-cyan wash, bold stylized colored light, fashion mood`
+- **风险提示：** 与霓虹(21)区分在"凝胶染色"；撞色要有设计别脏
+
+## 43. 节日 / 烟花彩光（Festive / Fireworks Light）
+- **布光位置：** 烟花/彩灯/灯笼/圣诞灯等点状彩光源散布，主体受其映照
+- **光质：** 点状闪烁彩光 + 偶发烟花强闪
+- **明暗对比：** 中，暗夜中点点彩光
+- **色温色彩：** 多彩暖闪（金红绿）、烟花瞬间染色
+- **塑形效果：** 主体被节日彩光映照、烟花照亮仰望的脸
+- **情绪氛围：** 欢庆、温暖、浪漫、热闹、希望、团圆
+- **适用场景：** 节日、跨年、烟花、婚礼、圣诞、庙会、浪漫告白
+- **经典案例：** 烟花绽放映亮两人仰望的脸
+- **视觉关键词：** festive lights, fireworks glow, bokeh string lights, colorful celebration
+- **AI提示词：** `festive lighting, fireworks illuminating upturned faces, colorful bokeh string lights, warm celebratory`
+- **风险提示：** 烟花映照需"明灭变化"；彩灯光斑增氛围
+
+## 44. 探照灯 / 聚光束（Searchlight / Spotlight Beam）
+- **布光位置：** 强方向性光束从远处扫射或单束聚打主体
+- **光质：** 极强硬光束，体积感强（需烟雾/雾气）
+- **明暗对比：** 极高，光束外即黑暗
+- **色温色彩：** 冷白/暖金，单束纯净
+- **塑形效果：** 单束锁定主体（舞台聚光）或扫射搜寻（探照），强戏剧聚焦
+- **情绪氛围：** 聚焦、审视、追捕、孤立、表演、神圣或压迫
+- **适用场景：** 越狱搜捕、舞台独唱、审讯、孤独独白、逃亡、聚焦时刻
+- **经典案例：** 探照灯光柱在夜空扫射搜寻逃犯
+- **视觉关键词：** searchlight beam, single spotlight, volumetric light shaft, isolating spotlight
+- **AI提示词：** `searchlight / spotlight beam, strong volumetric light shaft through haze, isolating the subject, dramatic`
+- **风险提示：** 光束需烟雾显形；与丁达尔(19)区分在"人造强方向束"
+
+---
+
 ## 使用提示
 - **情绪选光速记：** 温馨→暖调家庭光；悬疑→低调/百叶窗；浪漫→黄金时刻/烛光；恐怖→底光/闪烁/雾光；潮酷→霓虹/双色；孤独→屏幕冷光/月光。
 - **可叠加：** 一个镜头常是「主布光 + 实用光 + 氛围光」组合（如：低调 + 霓虹实用光 + 雾光）。
 - **生视频时：** 把 `视觉关键词` 直接拼入提示词，并配合「运镜库 + 景别库」组装成完整镜头方案。
-- 本库共 **36 条**：经典布光12 + 自然时间光8 + 风格氛围光9 + 情绪功能光7。
+- 本库共 **44 条**：经典布光12 + 自然时间光8 + 风格氛围光9 + 情绪功能光7 + 特殊与场景光8（舞台动感/水面焦散/Gobo投影/闪电/反弹补光/彩色凝胶/节日烟花/探照灯束）。
