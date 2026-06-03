@@ -1,6 +1,6 @@
 # 导演风格数据库（Director Style Database）
 
-> 原子库 · 共 40 位（国际26 + 华语14）｜ 用于"一键套用某导演的视觉与叙事风格"。
+> 原子库 · 共 60 位（国际46 + 华语14）｜ 用于"一键套用某导演的视觉与叙事风格"。
 > 供模块4调用：把 `模仿提示词` 拼进生图/生视频提示词，即可逼近该导演质感。
 
 ## 字段格式
@@ -54,8 +54,34 @@
 39. 宁浩 Ning Hao｜疯狂的石头/无人区｜多线索交叉·快节奏黑色幽默·手持｜市井写实·粗粝｜荒诞巧合/小人物群像/黑色幽默｜`multi-thread crime caper, fast dark comedy, gritty, interlocking coincidence`｜黑色幽默/犯罪/喜剧
 40. 陈思诚 Chen Sicheng｜唐人街探案/消失的她｜商业类型化·悬疑反转·异域奇观·明快剪辑｜高饱和异域风情·明亮商业感｜本格推理+喜剧/强情节反转/商业类型｜`commercial mystery, exotic vivid spectacle, twist-driven, slick editing`｜悬疑/喜剧/商业类型
 
+## 三、国际导演（续）（41–55）
+
+41. 赛尔乔·莱昂内 Sergio Leone｜黄金三镖客/西部往事/美国往事｜⭐极端大特写(眼睛)与大远景反差·缓慢仪式化对峙·长焦压缩·决斗三角剪辑｜烈日黄沙·暖褐砂砾·硬光｜西部史诗/暴力宿命/时间记忆｜`spaghetti western, extreme eye close-up vs vast wide, slow standoff, sun-baked telephoto`｜西部/史诗/犯罪
+42. 安德烈·塔可夫斯基 Andrei Tarkovsky｜潜行者/镜子/乡愁｜⭐极慢长镜·水与火等自然元素·缓移凝视·梦境质感｜自然柔光·褪色棕调·水汽湿润｜信仰/记忆/时间/精神追寻｜`Tarkovsky slow long take, water and nature elements, dreamlike, sepia muted, spiritual`｜文艺/哲思/诗电影
+43. 英格玛·伯格曼 Ingmar Bergman｜第七封印/野草莓/假面｜⭐面部大特写·双人脸部叠合·极简舞台·静默凝视｜黑白高反差·冷峻北欧光｜信仰怀疑/死亡/孤独/心理剖析｜`Bergman intense face close-ups, stark black-and-white, minimalist, psychological silence`｜文艺/心理/哲思
+44. 费德里科·费里尼 Federico Fellini｜八部半/大路/甜蜜生活｜⭐马戏团式狂欢调度·梦境游行·夸张群像·流动长镜｜黑白或浓艳·梦幻马戏感｜梦与现实/记忆狂欢/创作焦虑｜`Felliniesque carnival, dreamlike parade, grotesque ensemble, flowing surreal`｜文艺/超现实/喜剧
+45. 让-吕克·戈达尔 Jean-Luc Godard｜精疲力尽/狂人皮埃罗｜⭐跳切首创·打破第四面墙·手持街拍·间离｜自然光·三原色块(红蓝白)｜法国新浪潮/解构/政治爱情｜`French New Wave, jump cuts, breaking 4th wall, handheld street, primary color blocks`｜文艺/实验/爱情
+46. 佩德罗·阿莫多瓦 Pedro Almodóvar｜对她说/痛苦与荣耀/关于我母亲｜浓烈情节剧调度·质感特写·女性视角构图｜⭐高饱和红绿撞色·浓艳暖调｜欲望/女性/身份/情节剧｜`Almodóvar saturated red and green, melodrama, bold color blocking, sensual`｜情节剧/文艺/情感
+47. 尼古拉斯·温丁·雷弗恩 Refn｜亡命驾驶/霓虹恶魔｜极简静止构图·缓慢凝滞·暴力骤起·风格化｜⭐霓虹粉蓝紫·高对比暗调·荧光｜暴力美学/孤独/时尚冷感｜`Refn neon pink-blue, slow static minimalism, sudden violence, hyper-stylized`｜犯罪/惊悚/风格化
+48. 埃德加·赖特 Edgar Wright｜极盗车神/热血警探/僵尸肖恩｜⭐快速剪辑·音效同步剪辑·急推急甩·卡点视觉笑点｜明亮高饱和·活泼｜类型戏仿/喜剧节奏/视听同步｜`Edgar Wright rapid cuts, sound-synced editing, whip pans, kinetic comedic timing`｜喜剧/动作/类型
+49. 约戈斯·兰斯莫斯 Yorgos Lanthimos｜龙虾/宠儿/可怜的东西｜⭐超广角/鱼眼变形·对称·冷漠平移·诡异构图｜冷峻自然光或浓艳·疏离｜荒诞寓言/权力/人性怪诞｜`Lanthimos wide-angle fisheye distortion, deadpan symmetry, absurd unsettling`｜荒诞/黑色/文艺
+50. 阿里·艾斯特 Ari Aster｜遗传厄运/仲夏夜惊魂｜⭐缓慢推进·模型屋俯视·白昼恐怖·对称仪式｜明亮白昼反差恐怖·诡异暖阳｜创伤/家庭崩坏/邪典仪式｜`Ari Aster slow dread, dollhouse overhead shot, daylight horror, symmetrical ritual`｜恐怖/心理/邪典
+51. 扎克·施奈德 Zack Snyder｜300勇士/守望者/正义联盟｜⭐升格变速(speed ramp)·高对比剪影·慢动作暴力·史诗定格｜⭐青橙高对比·去饱和金属·阴郁｜神话史诗/超级英雄/暴力美学｜`Zack Snyder speed-ramp slow-mo, teal-orange high contrast, epic silhouettes, desaturated`｜超英/史诗/动作
+52. 迈克尔·贝 Michael Bay｜变形金刚/绝地战警/勇闯夺命岛｜⭐英雄低角度环绕(Bayhem)·爆炸·快剪·动态甩镜｜⭐金橙黄昏·镜头光晕·高反差｜爆炸奇观/军事/商业大片｜`Bayhem low-angle hero orbit, explosions, lens flares, golden-hour, frenetic`｜动作/商业/军事
+53. 盖·里奇 Guy Ritchie｜两杆大烟枪/偷拐抢骗/绅士｜⭐快速蒙太奇·定格旁白·变速·多线交织犯罪｜饱和伦敦质感·明快｜英式黑帮/多线巧合/痞帅幽默｜`Guy Ritchie fast montage, freeze-frame narration, speed ramps, slick crime caper`｜犯罪/黑色幽默/动作
+54. 斯派克·李 Spike Lee｜为所应为/黑色党徒/迷镇凶案｜⭐双人推车浮镜(double dolly)·直视镜头·跳接·政治插入｜饱和浓烈·街区暖调｜种族/社会正义/都市经验｜`Spike Lee double-dolly floating shot, direct address, bold saturated, urban`｜社会/剧情/政治
+55. 滨口龙介 Ryusuke Hamaguchi｜驾驶我的车/夜以继日/偶然与想象｜固定中景长对话·车内戏·留白·自然表演｜自然柔光·写实低调｜对话沟通/记忆/偶然与命运｜`Hamaguchi long static dialogue shots, in-car scenes, naturalistic, quiet realism`｜文艺/剧情/情感
+
+## 四、日本动画导演（56–60）
+
+56. 新海诚 Makoto Shinkai｜你的名字/天气之子/秒速五厘米｜⭐极致光影天空·镜头光晕·唯美空镜·细腻自然作画｜⭐绚丽高饱和·逆光光斑·瑰丽天空云彩｜距离与思念/青春/灾难与羁绊｜`Makoto Shinkai luminous skies, lens flares, hyper-detailed nature, radiant saturated, 2D anime`｜动画/青春/爱情
+57. 细田守 Mamoru Hosoda｜夏日大作战/狼的孩子/怪物之子｜清爽日常融奇幻·明快构图·家庭温情·虚拟空间设计｜明亮清新·夏日蓝绿·通透｜家庭羁绊/虚拟与现实/成长｜`Hosoda clean bright daylight, summer blue-green, family warmth, crisp, 2D anime`｜动画/家庭/奇幻
+58. 押井守 Mamoru Oshii｜攻壳机动队/天使之卵｜⭐哲思慢节奏·城市空镜蒙太奇·赛博沉思·水与雨意象｜暗调冷峻·赛博绿青·雨湿反光｜人与机器/存在/意识哲学｜`Oshii philosophical slow pace, cyberpunk cityscape montage, rain, contemplative, 2D anime`｜动画/科幻/哲思
+59. 庵野秀明 Hideaki Anno｜新世纪福音战士/真实之影｜⭐密集文字定格·凌厉快切·实景质感·意识流留白长镜｜高对比·神学符号·冷暖极端｜心理创伤/孤独/末世/意识剖析｜`Anno rapid text-card cuts, freeze frames, psychological montage, apocalyptic, 2D anime`｜动画/科幻/心理
+60. 汤浅政明 Masaaki Yuasa｜恶魔人crybaby/乒乓/春宵苦短｜⭐夸张变形流动作画·超现实·扭曲透视·实验色彩｜大胆撞色·迷幻高饱和·扭曲｜情欲与暴力/生命力/超现实表现｜`Yuasa fluid distorted animation, surreal warped perspective, psychedelic bold color, 2D anime`｜动画/实验/超现实
+
 ## 使用提示
-- 风格选用速记：极致色彩→张艺谋/王家卫；对称强迫美→库布里克/韦斯·安德森；冷峻阴郁→芬奇/杜琪峰；自然诗意→马力克/侯孝贤；梦境超现实→林奇/毕赣/今敏；暴力浪漫→吴宇森/朴赞郁；史诗宏大→维伦纽瓦/诺兰。
+- 风格选用速记：极致色彩→张艺谋/王家卫/阿莫多瓦；对称强迫美→库布里克/韦斯·安德森/兰斯莫斯；冷峻阴郁→芬奇/杜琪峰；自然诗意→马力克/侯孝贤/塔可夫斯基；梦境超现实→林奇/毕赣/今敏/费里尼；暴力浪漫→吴宇森/朴赞郁；霓虹暴力美学→雷弗恩；史诗宏大→维伦纽瓦/诺兰；西部仪式→莱昂内；升格史诗→施奈德；爆炸商业→迈克尔·贝；快剪戏仿→埃德加·赖特/盖·里奇；白昼恐怖→阿里·艾斯特；动画光影天空→新海诚；动画哲思→押井守/庵野秀明。
 - 组合调用：导演风格 = 该导演常用「灯光+构图+运镜+色彩」组合，可与对应原子库交叉引用。
-- 生图/生视频：把 `模仿提示词` 直接拼入，再叠加题材场景描述即可。
-- 共40位：国际26 + 华语14。
+- 生图/生视频：把 `模仿提示词` 直接拼入，再叠加题材场景描述即可；动画导演务必前置 `2D anime style`。
+- 共60位：国际46（含日本动画5）+ 华语14。
