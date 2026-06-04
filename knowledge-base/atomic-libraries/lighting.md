@@ -537,8 +537,116 @@
 
 ---
 
+---
+
+# 六、科幻与心理光（45–52）
+
+## 45. 全息投影光（Holographic Projection Glow）
+- **布光位置：** 全息投影仪或AR界面向主体及环境发射半透明光幕、数据流光点从投影面散射
+- **光质：** 半透明叠加光幕，粒子感闪烁，柔中带数码颗粒
+- **明暗对比：** 中低对比，光幕与环境共存
+- **色温色彩：** 冰蓝/青绿/淡紫/湖蓝半透明色，闪烁粒子白
+- **塑形效果：** 主体被半透明数据光幕包裹或穿行其中、光点飘浮于空间
+- **情绪氛围：** 未来、科技、超现实、数字化、虚拟与现实交融
+- **适用场景：** 科幻、赛博朋克、高科技实验室、虚拟会议、AR增强现实
+- **经典案例：** 全息通讯中人物被蓝色半透明光幕笼罩，数据流从指尖流过
+- **视觉关键词：** holographic projection, translucent light screen, floating data particles, sci-fi overlay, AR glow
+- **AI提示词：** `holographic lighting, translucent data light curtain enveloping subject, floating blue particles, sci-fi augmented reality glow`
+- **风险提示：** 半透明光勿遮挡主体五官；数据流粒子过多成噪点
+
+## 46. 能量核心光（Energy Core / Reactor Glow）
+- **布光位置：** 核心光源位于主体中央(如胸口/武器/驾驶舱)，向外辐射脉冲光波
+- **光质：** 脉冲硬光，以核心为心向四周辐射、强弱交替
+- **明暗对比：** 极高(核心爆亮→边缘骤暗)
+- **色温色彩：** 橙金/蓝白/紫红/绿核，光线随脉冲变色
+- **塑形效果：** 主体被中央能量核心照亮、脉冲光斑从核心向外扩散、设备/环境被光波扫过
+- **情绪氛围：** 能量充盈、临界爆发、科技神圣、危机前兆
+- **适用场景：** 科幻、机甲、超级英雄、魔幻核心、能源舱启动、自毁倒计时
+- **经典案例：** 机甲胸口反应堆脉冲发光，光波一波波扫过驾驶舱
+- **视觉关键词：** energy core glow, pulsating reactor light, radial power waves, surging sci-fi power, plasma glow
+- **AI提示词：** `pulsating energy core, radial light waves from center, intense reactor glow, surging sci-fi plasma, light rippling outward`
+- **风险提示：** 脉冲频率过快引发光敏安全；核心亮度需有呼吸节奏
+
+## 47. 驾驶舱界面光（Cockpit / HUD Interface Glow）
+- **布光位置：** 多个显示屏/仪表/HUD从多方向投射冷调界面光在驾驶员脸上及舱内
+- **光质：** 多源不规则硬光闪动，随仪表信息变化
+- **明暗对比：** 中高，暗舱中多源亮屏
+- **色温色彩：** 仪表绿/橙/蓝/红多色，冷调为主
+- **塑形效果：** 驾驶者面部被多源仪表光从不同方向照亮、数据在脸庞上流动、舱内设备灯光闪烁
+- **情绪氛围：** 紧张、专注、科技感、危机操控、孤寂飞行
+- **适用场景：** 科幻、太空、飞行、潜艇、指挥中心、机甲驾驶
+- **经典案例：** 太空中飞行员脸庞被绿色HUD和橙色警报灯交替照亮
+- **视觉关键词：** cockpit lighting, HUD glow on face, multi-source instrument lights, sci-fi pilot, dashboard glow
+- **AI提示词：** `cockpit instrument lighting, HUD green glow on pilot face, flickering multi-colored dashboard lights, immersive sci-fi cockpit`
+- **风险提示：** 多源光方向统一(每屏对应一侧)；脸上光彩勿杂色腥
+
+## 48. 生化变异光（Bioluminescent / Mutagenic Glow）
+- **布光位置：** 光从生命体内部或表面渗出(血脉/菌丝/腺体)、在身体与环境中蔓延
+- **光质：** 生物自发光，柔且不稳定细脉流淌
+- **明暗对比：** 中，暗环境自发光
+- **色温色彩：** 荧绿/磷光青/紫红/橙黄(菌变)、蓝(深海)、金(神性)
+- **塑形效果：** 生物发光线条沿血脉/纹理蔓延、孢子/发光线缕环绕主体、暗处自体发光
+- **情绪氛围：** 异变、恐怖、美丽而致命、超自然、神秘生命
+- **适用场景：** 科幻变异、生化危机、深海生物、奇幻精灵、毒液/寄生
+- **经典案例：** 感染者手臂上绿色荧光血管纹路从指尖向心脏蔓延
+- **视觉关键词：** bioluminescent glow, vein glow, mutagenic blue light, fungal spore light, organic self-illumination
+- **AI提示词：** `bioluminescent lighting, glowing veins creeping across skin, ethereal green-blue organic glow, supernatural self-illumination`
+- **风险提示：** 生物发光流线要有"生长/蔓延"动势，忌静态贴图；颜色别太霓虹失真实
+
+## 49. 时间停滞光（Time-Freeze Desaturation）
+- **布光位置：** 光固定在停帧瞬间，环境降饱和度+轻微欠曝，主体局部保留全彩
+- **光质：** 静止、凝固、抽去活力的平光
+- **明暗对比：** 低，画面整体降压暗
+- **色温色彩：** 去饱和度偏灰蓝或灰褐，主体保留原色
+- **塑形效果：** 环境色彩褪去如定格、主体在灰色世界中保持色彩、飘浮尘埃凝固
+- **情绪氛围：** 暂停、回忆凝固、重大抉择瞬间、濒死体验、超能力
+- **适用场景：** 时间操纵、闪回定格、子弹时间、超英能力、临终回光
+- **经典案例：** 爆炸碎片凝固在空中，主角从降饱和的定格画面中穿行
+- **视觉关键词：** time-freeze lighting, desaturated frozen moment, color isolation on subject, suspended in time, bullet-time stillness
+- **AI提示词：** `time-freeze effect, environment desaturated and still, subject keeps full color in gray world, suspended moment, surreal frozen time`
+- **风险提示：** 与高调(11)区分在"全场景去色+主体留色"；不要混用降饱和与暖调
+
+## 50. 恐惧扭曲光（Fear Distortion Lighting）
+- **布光位置：** 光从非现实方向(如地底/天花板外)强行扭曲打入，光源不明
+- **光质：** 极度异化——硬光但来源不明、束色畸变、暗处拉扯如黑洞
+- **明暗对比：** 极端并扭曲，亮部过曝边缘渗黑光
+- **色温色彩：** 阴冷绿/暗紫/苍白黄/不祥青灰、暗部渗入深红
+- **塑形效果：** 环境扭曲如透镜畸变、阴影不按物理拉长、主体被异常光斑凝视、光源从不该有光的位置打出
+- **情绪氛围：** 极致恐惧、心理崩塌、超自然邪恶、精神失常、梦魇
+- **适用场景：** 心理恐怖、克苏鲁、精神病幻觉、超自然、极端惊悚、地狱景象
+- **经典案例：** 走廊灯光在主角身后扭曲拉长、阴影如触手爬向脚边
+- **视觉关键词：** fear distortion light, unnatural shadow pulling, impossible light source, lens warp dread, psychological horror glow
+- **AI提示词：** `distorted horror lighting, shadows stretching unnaturally, impossible source of sickly green light, warped perspective, unsettling dream-logic glow`
+- **风险提示：** 恐怖光在"违反光物理"——但必须有逻辑底线，忌纯抽象噪点
+
+## 51. 迷幻意识流光（Psychedelic Stream of Consciousness）
+- **布光位置：** 多色光带/光丝从主体头部/环境中旋转穿梭，如意识可视化
+- **光质：** 流体、光丝、拖尾、光斑溶解，离散而流动
+- **明暗对比：** 低至中，梦幻溶解感
+- **色温色彩：** 超饱和霓虹七彩、高亮品红/紫/金/青绿、颜色在流动中渐变
+- **塑形效果：** 光丝如思维从主体头部旋出、颜色随情绪变化流淌、世界溶解为光流
+- **情绪氛围：** 迷幻、意识开悟、药物影响、精神共鸣、超验体验
+- **适用场景：** 致幻、冥想、脑机接口、潜意识旅程、艺术实验片
+- **经典案例：** 主角闭目后彩色光丝从太阳穴喷出，织成流动的记忆画面
+- **视觉关键词：** psychedelic light trails, consciousness stream glow, rainbow fluid light, melting color, drug-trip visual
+- **AI提示词：** `psychedelic lighting, fluid rainbow light trails weaving through space, consciousness visualized as glowing ribbons, surreal color flow`
+- **风险提示：** 流动有方向(思维→画面)，忌随机噪点；饱和度高但光量适度
+
+## 52. 闪回记忆褪色光（Flashback / Memory Fade Light）
+- **布光位置：** 回忆段画面整体褪色，边缘漫出柔光晕(过曝边缘)，进出有光过渡
+- **光质：** 柔光漫射+边缘过曝(光晕)，画面如被时间洗白
+- **明暗对比：** 低，画面整体提亮、边缘光晕渐隐
+- **色温色彩：** 褪暖(茶黄/老照片棕)或褪青(旧胶片青)，过渡区高调白
+- **塑形效果：** 画面边角被柔光晕吞没、整体褪色如旧照、光线从外部漫入标记记忆的边界
+- **情绪氛围：** 怀旧、不真实、美好但不持久、伤痛被时间淡化
+- **适用场景：** 回忆杀、闪回、逝者遗像、旧时光、创伤记忆
+- **经典案例：** 画面边缘柔白光晕渐漫，回忆场景褪成茶黄色旧照片质感
+- **视觉关键词：** memory fade lighting, vintage photo tone, edge soft white glow, time-washed nostalgic, flashback visual
+- **AI提示词：** `memory fade lighting, edges dissolving into soft white glow, sepia-toned nostalgic warmth, dream-like washed-out look, time-softened edges`
+- **风险提示：** 褪色+光晕不同于"失焦"(18)；边缘光晕区域不宜过大吞没信息
+
 ## 使用提示
 - **情绪选光速记：** 温馨→暖调家庭光；悬疑→低调/百叶窗；浪漫→黄金时刻/烛光；恐怖→底光/闪烁/雾光；潮酷→霓虹/双色；孤独→屏幕冷光/月光。
 - **可叠加：** 一个镜头常是「主布光 + 实用光 + 氛围光」组合（如：低调 + 霓虹实用光 + 雾光）。
 - **生视频时：** 把 `视觉关键词` 直接拼入提示词，并配合「运镜库 + 景别库」组装成完整镜头方案。
-- 本库共 **44 条**：经典布光12 + 自然时间光8 + 风格氛围光9 + 情绪功能光7 + 特殊与场景光8（舞台动感/水面焦散/Gobo投影/闪电/反弹补光/彩色凝胶/节日烟花/探照灯束）。
+- 本库共 **52 条**：经典布光12 + 自然时间光8 + 风格氛围光9 + 情绪功能光7 + 特殊与场景光8（舞台动感/水面焦散/Gobo投影/闪电/反弹补光/彩色凝胶/节日烟花/探照灯束）+ 科幻与心理光8（全息投影/能量核心/驾驶舱/生化变异光/时间停滞/恐惧扭曲/迷幻意识流/闪回记忆）。
