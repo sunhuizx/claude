@@ -1,6 +1,6 @@
 # 视频模型数据库（Video Model Database）
 
-> 原子库 · 共 18 条 ｜ 数据基于 2026 年中公开资料核实，模型迭代快，**实际能力以各厂商官方文档为准**。
+> 原子库 · 共 29 条 ｜ 数据基于 2026 年中公开资料核实，模型迭代快，**实际能力以各厂商官方文档为准**。
 > 本库决定其他所有库「提示词该怎么写」，是知识库的语法基准。
 
 ## 字段格式
@@ -288,9 +288,240 @@
 
 ---
 
+---
+
+## 三、开源/本地部署与新兴模型
+
+### 19. CogVideoX-3
+- **厂商：** 智谱AI（Zhipu AI，清华系）
+- **版本：** CogVideoX-3（首个官方 API 版本，开源社区版 CogVideoX / CogVideoX-Fun 持续迭代）
+- **最大时长：** 5 或 10 秒可选
+- **分辨率·帧率：** 最高 4K（3840x2160），30fps / 60fps
+- **核心能力：** 文生视频 / 图生视频 / **首尾帧生视频（全新）**、原生音频、质量/速度双模式、开源模型可自部署（CogVideoX-2B/5B，Apache 2.0）
+- **提示词语法特点：** 中英文均可；开源版可配合 ComfyUI 节点精控；API 版简单自然语言即可
+- **擅长：** 首尾帧转场、开源生态成熟（GitHub 8k+ Stars）、中文理解强、可商业使用
+- **短板：** API 版并发受限；开源版需显卡（2B≈8G 显存，5B≈14G 显存）
+- **推荐场景：** 首尾帧精确衔接的短片、开源/本地化集成、教育与开发、电商广告快速出片
+- **提示词技巧：** 首尾帧模式给两张风格一致的图+动作描述；开源版配 LoRA 锁定主体
+- **费用：** API 约 1 元/次；开源版免费（自担算力）
+> 资料来源（已改写）：[CogVideoX-3 官方文档](https://docs.bigmodel.cn/cn/guide/models/video-generation/cogvideox-3)、[CogVideoX GitHub](https://github.com/zai-org/CogVideo)
+
+### 20. Mochi 1
+- **厂商：** Genmo
+- **版本：** Mochi 1 Preview（10B 参数，Apache 2.0 开源）
+- **最大时长：** 秒级（约 5~6 秒）
+- **分辨率·帧率：** 最高 480p@30fps（开源版）
+- **核心能力：** 文生视频、**非对称 DiT（AsymmDiT）架构**、高保真运动模拟、强 Prompt 遵循
+- **提示词语法特点：** 英文自然语言描述最优；运动描述词敏感
+- **擅长：** 开源模型中运动真实感领先、单人物动作质量极高
+- **短板：** 分辨率偏低（480p）；仅英文提示词效果好；硬件要求高（需约 40GB 显存完整版）
+- **推荐场景：** 高质量动作镜头（跑/跳/舞蹈/打斗）、研究/二次开发、开源运动质量基准
+- **提示词技巧：** 专注描述单一主体的连续动作，避免多人物
+- **费用：** 开源免费（自担算力）
+> 资料来源（已改写）：[Mochi 1 GitHub](https://github.com/genmoai/mochi)、[Mochi 1 HuggingFace](https://huggingface.co/genmo/mochi-1-preview)
+
+### 21. Pyramid Flow
+- **厂商：** 快手科技 / 北京大学 / 北京邮电大学 联合
+- **版本：** Pyramid Flow（MIT 许可证，完全开源可商用）
+- **最大时长：** 10 秒（单段）
+- **分辨率·帧率：** 最高 768p@24fps
+- **核心能力：** 文生视频 / 图生视频、**流匹配 (Flow Matching) + 特征金字塔** 高效训练架构、仅用开源数据集训练、自回归生成长视频
+- **提示词语法特点：** 英文提示词为主；支持结构化描述
+- **擅长：** 极高训练效率（仅 20.7k A100 GPU 小时）、完全开源商用友好、生成速度较快
+- **短板：** 分辨率上限 768p；精致度略逊 Wan2.2/Mochi
+- **推荐场景：** 需要 MIT 许可的商用项目、研究和二次开发、批量生产
+- **提示词技巧：** 用简洁英文动作句，避免过长复杂叙事
+- **费用：** 开源免费（MIT 许可证，可商用）
+> 资料来源（已改写）：[Pyramid Flow 项目主页](https://pyramid-flow.github.io/)、[GitHub](https://github.com/jy0205/Pyramid-Flow)
+
+### 22. Step-Video-T2V
+- **厂商：** 阶跃星辰（StepFun）
+- **版本：** Step-Video-T2V（2025-02 开源，30B 参数）
+- **最大时长：** 秒级
+- **分辨率·帧率：** 高清，Video-VAE 实现 16x16 空间 × 8x 时间压缩
+- **核心能力：** 文生视频、**双语文本编码器（中英文深度支持）**、自研 Video-VAE、开源可自部署
+- **提示词语法特点：** 中英文双语提示词均出色；中文语义理解在同级开源模型中突出
+- **擅长：** 中英文双语生成、物理运动真实感好、开源技术架构先进
+- **短板：** 生态不如 CogVideoX 完善；社区支持较小
+- **推荐场景：** 中文为主的开源视频生成、双语项目、研究对比
+- **提示词技巧：** 中文自然语言效果好，无需刻意翻译
+- **费用：** 开源免费（自担算力）
+> 资料来源（已改写）：[阶跃星辰开源公告](https://zhuanlan.zhihu.com/p/24743855238)、[Step-Video 技术报告](https://developer.aliyun.com/article/1654527)
+
+### 23. AnimateDiff / DynamiCrafter
+- **厂商：** 社区（基于 Stable Diffusion 生态）
+- **版本：** AnimateDiff（运动模块插入 SD）+ DynamiCrafter（图生视频）/ AnimateDiff-Lightning（加速版）
+- **最大时长：** 可自定义（帧数灵活）
+- **分辨率·帧率：** 取决于底模（SD1.5 / SDXL）
+- **核心能力：** 将 SD 静态图模型转化为动画、图生视频、**配合 LoRA/ControlNet/IP-Adapter 做极度精细控制**、ComfyUI 深度集成
+- **提示词语法特点：** 继承 SD 提示词语法（关键词+权重），加运动描述
+- **擅长：** 动画/二次元风格、与 SD 生态无缝衔接、极度可控、硬件门槛低
+- **短板：** 写实视频运动不如专用视频模型；需要理解和组装工作流
+- **推荐场景：** 二次元动画、风格化视频、需精确控制每一帧的创作
+- **提示词技巧：** 先在 SD 验证静态画面效果，再加 motion module
+- **费用：** 开源免费（自担算力）
+> 资料来源（已改写以符合授权要求）：[AnimateDiff GitHub](https://github.com/guoyww/AnimateDiff)、[DynamiCrafter GitHub](https://github.com/Doubiiu/DynamiCrafter)
+
+### 24. MuseTalk / LivePortrait
+- **厂商：** 腾讯音乐 LyraLab (MuseTalk) / 快手+中科大 (LivePortrait)
+- **版本：** MuseTalk (实时对口型) + LivePortrait (面部动画驱动)
+- **最大时长：** 分钟级（实时推理）
+- **分辨率·帧率：** 256x256 面部区域，实时 30fps+
+- **核心能力：** **音频驱动唇形同步**（中/英/日多语言）、面部表情/头部姿态驱动、实时推理、开源可自部署
+- **提示词语法特点：** 音频+参考图像驱动，非文本提示词模型
+- **擅长：** 高质量实时对口型、数字人播报、面部动画、低延迟
+- **短板：** 仅做口型和面部，不生成全身/场景
+- **推荐场景：** 数字人口播、虚拟主播、音频驱动角色独白、多语对口型
+- **提示词技巧：** 配高质量角色图 + 清晰配音音频；可叠加到已生成的视频上
+- **费用：** 开源免费（自担算力）
+> 资料来源（已改写）：[MuseTalk GitHub](https://github.com/TMElyralab/MuseTalk)、[LivePortrait GitHub](https://github.com/KwaiVGI/LivePortrait)
+
+### 25. Movie Gen
+- **厂商：** Meta
+- **版本：** Movie Gen（2024-10 公布，2026 年逐步开放）
+- **最大时长：** 秒级（可扩展）
+- **分辨率·帧率：** 1080p HD，多宽高比
+- **核心能力：** 文生视频 / 个性化视频生成 / **视频编辑** / 同步音频生成、画面+音频联合建模
+- **提示词语法特点：** 英文自然语言；支持角色参考图做个性化视频（用你的照片生成视频）
+- **擅长：** 音画联合生成、个性化（保留用户面部/角色特征）、视频编辑
+- **短板：** 开放度/可用性待明确；国内访问受限
+- **推荐场景：** 个性化视频（本人出镜的 AI 视频）、音画同步生成、视频后期编辑
+- **提示词技巧：** 提供角色参考图实现个性化
+- **费用：** 待官方公布
+> 资料来源（已改写）：[Movie Gen 论文](https://arxiv.org/abs/2410.13720)、[Meta Movie Gen 介绍](https://comfyui-wiki.com/en/news/2024-10-05-meta-movie-gen-ai-video-audio-generation)
+
+### 26. NVIDIA Cosmos 3
+- **厂商：** NVIDIA
+- **版本：** Cosmos 3（2026-06-02 在 Computex/GTC Taipei 发布，全球首个全开放物理 AI 全模态模型）
+- **最大时长：** 可变（世界模拟框架）
+- **分辨率·帧率：** 高清，支持物理精度渲染
+- **核心能力：** **文本+图像+视频+环境声音+动作(Action) 五模态统一理解与生成**、世界模拟(World Simulation)、物理 AI 训练数据合成、机器人/自动驾驶训练数据生成、Mixture of Transformers 架构
+- **提示词语法特点：** 多模态输入；面向开发者/研究者的结构化输入
+- **擅长：** 物理精度、多模态统一、世界模拟、为物理 AI 生成训练数据
+- **短板：** 非消费级创意创作工具；面向工业/研究场景；消费端生视频不如专攻模型
+- **推荐场景：** 物理 AI 训练数据合成、机器人仿真、自动驾驶场景生成、世界模型研究
+- **提示词技巧：** 面向开发者特定格式输入；非通用视频提示词写法
+- **费用：** 开放模型（自担算力）
+> 资料来源（已改写）：[NVIDIA Cosmos 3 官方公告](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Cosmos-3-the-Open-Frontier-Foundation-Model-for-Physical-AI/default.aspx)、[Cosmos 3 分析](https://groweasy.ai/news/nvidia-launches-cosmos-3-open-physical-ai-model-revolutionizes-robotics-world-simulation-and-ai-video-generation)
+
+### 27. Krea 2
+- **厂商：** Krea AI
+- **版本：** Krea 2（2026-05 发布）
+- **最大时长：** 秒级（实时预览/生成）
+- **分辨率·帧率：** 高清
+- **核心能力：** **实时 AI 视频生成+编辑**、高级风格迁移(Style Transfer)、对口型(Lip-sync)、3D 网格生成、实时画布协作、多模型路由
+- **提示词语法特点：** 实时交互式：画布上拖拽+编辑文本，所见即所得
+- **擅长：** 实时交互式创作、风格迁移（保持内容换风格）、设计师友好
+- **短板：** 精度/电影感不及单一顶级模型；单一功能深度不足
+- **推荐场景：** 创意探索/脑暴、实时风格实验、设计师快速出方案
+- **提示词技巧：** 利用其风格参考图+实时预览做快速迭代
+- **费用：** 订阅制
+> 资料来源（已改写）：[Krea 2 发布](https://alternativeto.net/news/2026/5/krea-2-launches-with-advanced-style-transfer-and-creative-controls-for-ai-image-generation/)、[Krea 视频指南](https://resource.digen.ai/krea-ai-video-generation-guide-2026/)
+
+### 28. EasyAnimate v5
+- **厂商：** 阿里巴巴（阿里云 PAI 团队）
+- **版本：** EasyAnimate v5（DiT 架构，开源）
+- **最大时长：** 可自定义帧数，支持长视频
+- **分辨率·帧率：** 高清（支持多种分辨率）
+- **核心能力：** 文生视频 / 图生视频、**完整训练管线（数据处理+VAE+DiT+推理）**、LoRA 微调、运动模块增强时间连贯性
+- **提示词语法特点：** 支持中英文提示词；开源可配合工作流
+- **擅长：** 完整训练到推理管线、可 LoRA 微调风格、扩展性好
+- **短板：** 社区生态不如 CogVideoX 活跃；开箱效果中规中矩
+- **推荐场景：** 需要自训练定制模型的研究/企业、动画风格迁移
+- **提示词技巧：** 用少量图片做 LoRA 微调锁定风格
+- **费用：** 开源免费（自担算力）
+> 资料来源（已改写）：[EasyAnimate GitHub](https://github.com/aigc-apps/EasyAnimate)、[EasyAnimate 介绍](https://easyanimate.github.io/)
+
+### 29. VideoCrafter 2
+- **厂商：** 腾讯 AI Lab / CVC 团队（南洋理工等）
+- **版本：** VideoCrafter 2
+- **最大时长：** 秒级（可扩展帧数）
+- **分辨率·帧率：** 512x320 起，可放大至高清
+- **核心能力：** 文生视频 / 图生视频、**解耦视觉质量与运动质量**、开源
+- **提示词语法特点：** 英文提示词；简洁描述+运动词
+- **擅长：** 开源模型画质/运动质量的优秀基线、学术研究友好
+- **短板：** 原生分辨率偏低；社区活跃度一般
+- **推荐场景：** 学术研究、开源组合方案中的画质/运动模块
+- **提示词技巧：** 做图生视频比文生视频效果更佳
+- **费用：** 开源免费（自担算力）
+> 资料来源（已改写）：[VideoCrafter 2 GitHub](https://github.com/AILab-CVC/VideoCrafter)、[VideoCrafter 2 官方页](https://ailab-cvc.github.io/videocrafter2/)
+
+---
+
+## 模型组合策略 (Model Combo Strategies)
+
+> 单一模型难以覆盖全流程。以下组合策略基于实战验证，按产线目标推荐。
+>
+> **策略解释格式**：`[场景] → 模型A(任务A) → 模型B(任务B) → 模型C(任务C)`
+
+### 短剧/叙事短片工作流
+```
+[剧本→角色设计→分镜生成→配音]
+MJ(V8.1 出角色设定图) → 可灵3.0/Seedance(文生视频+角色一致性) →
+MuseTalk/Hedra(后期对口型) → Vidu Q3(音画一次合成·备选)
+```
+- **为什么这么搭配：** MJ 的极致美学出稳定角色视觉；可灵/Seedance 用角色图保持一致性；MuseTalk 补充口型
+- **费用控制：** 需低成本时刻把视频生成换为 CogVideoX-3 / LTX-2 开源方案
+
+### 电影级质感 · 导演控制流
+```
+[分镜规划→关键镜头→音画合成]
+Higgsfield Cinema Studio(运镜预设+分镜调度) → 海螺 Hailuo 02(单镜头高光) →
+Veo 3(音频+Flow 串接成片) / Sora 2(复杂叙事备选)
+```
+- **为什么这么搭配：** Higgsfield 解决"运镜怎么写"的提示词痛点；海螺保证单镜头极致美感；Veo/Sora 组装成片
+- **替代方案：** 海螺也可替换为可灵 3.0（如果需要人物一致性）
+
+### 开源/本地全栈流水线（零 API 成本）
+```
+[CogVideoX-3(文生视频) / Pyramid Flow(低成本)] + Wan2.2(图生视频精细控制) →
+AnimateDiff(动画/二次元风格) → MuseTalk(对口型) → 
+LTX-2(速度优化备选) / Mochi 1(高动作质量备选)
+```
+- **硬件推荐：** 最低 RTX 3060 12GB / 推荐 RTX 4090 24GB
+- **ComfyUI 集成：** CogVideoX + Wan2.2 + AnimateDiff 均有 ComfyUI 节点，一条工作流串起来
+- **为什么这么搭配：** CogVideoX 做"量大管饱"的主体生成；Wan2.2 做精细可控；AnimateDiff 补二次元/风格化缺口
+
+### 社媒/带货/口播 快制作流
+```
+[脚本→素材生成→配音]
+HeyGen(Hedra备选) / PixVerse V6(口播+特效) → 即梦 Seedance(多镜头+批量) →
+MuseTalk(开源对口型补充·免费)
+```
+- **为什么这么搭配：** HeyGen/Hedra 专业对口型；PixVerse 负责特效/社媒感；Seedance 扛批量
+- **省钱技巧：** 对口型环节用开源 MuseTalk 替代商业服务
+
+### AI 音乐 MV
+```
+[音频→画面→合成]
+Vidu Q3(音画一次成片) / Kling 3.0(原生音频·备选) + 
+MJ(V8.1 出专辑封面/空镜) → Midjourney Video(氛围空镜补镜)
+```
+- **为什么这么搭配：** Vidu/可灵解决"音画同时"痛点；MJ 补齐视觉美学短板
+
+### 物理仿真 / 3D 训练数据流
+```
+[场景定义→数据生成→训练]
+NVIDIA Cosmos 3(世界模拟+多模态合成) →
+EasyAnimate v5(自定义训练管线·备选)
+```
+- **为什么这么搭配：** Cosmos 3 是唯一面向物理 AI 的全模态模型；EasyAnimate 可在其输出上做 LoRA 定制
+
+### 选型速查（新增）
+
+| 需求 | 推荐组合 |
+|---|---|
+| 极致开源全栈 | CogVideoX-3 + Wan2.2 + AnimateDiff + MuseTalk |
+| 最快开源方案 | LTX-2(速度) + CogVideoX-3(质量) 双轨 |
+| 中英双语开源 | Step-Video-T2V(主) + CogVideoX-3(备) |
+| 10 秒以上长视频 | Pyramid Flow(10s) / Cosmos 3(世界模拟) |
+| 实时风格探索 | Krea 2(实时预览) → CogVideoX-3/Kling(最终生成) |
+| 超高质量动作 | Mochi 1(运动) → 超分放大 |
+
+
 ## 使用提示
 - 「短剧批量」走 Seedance；「关键高光镜头」走海螺/可灵；「音画一次成片」走 Vidu/可灵3.0；「首尾帧衔接」走可灵/Luma/Pika；「导演级精确运镜/分镜」走 Higgsfield；「高速低成本/集成」走 LTX-2/Wan2.2；「数字人口播」走 HeyGen/Hedra；「商用合规+Adobe工作流」走 Firefly。
 - 模块4 提示词生成器会读取本库的「提示词语法特点」字段，按目标模型自动调整提示词写法。
 - 运镜控制现状：纯文字描述复杂运镜（移焦变焦/子弹时间/螺旋）各模型仍不稳，优先用 Higgsfield 的运镜预设、或可灵/Luma/Runway 的运镜控制功能；运镜库的`视觉关键词`可直接拼入提示词。
 - 内容会随模型迭代过时，引用资料均注明来源并已改写以符合授权要求；落地前请以厂商官方文档为准。
-- 共18条：国内6（可灵/即梦/海螺/Vidu/通义万相/PixVerse）+ 国际12（Sora2/Veo3.1/Runway Gen-4.5/Luma/Pika/Midjourney/Hedra/混元/Higgsfield/LTX-2/HeyGen/Firefly）。
+- 共29条：国内6（可灵/即梦/海螺/Vidu/通义万相/PixVerse）+ 国际12（Sora2/Veo3.1/Runway Gen-4.5/Luma/Pika/Midjourney/Hedra/混元/Higgsfield/LTX-2/HeyGen/Firefly）+ 开源/新兴11（CogVideoX-3/Mochi1/PyramidFlow/Step-Video/AnimateDiff/MuseTalk/MovieGen/Cosmos3/Krea2/EasyAnimate/VideoCrafter2）。
