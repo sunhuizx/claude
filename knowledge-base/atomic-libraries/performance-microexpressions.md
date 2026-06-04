@@ -1,6 +1,6 @@
 # 表演数据库 · 微表情（Performance / Micro-Expressions）
 
-> 原子库 · 目标 ~55 条 ｜ 底层依据：**FACS 面部动作编码系统**（Action Unit, AU）。
+> 原子库 · 目标 ~69 条 ｜ 底层依据：**FACS 面部动作编码系统**（Action Unit, AU）。
 > 铁律：任何情绪都**禁止直接写情绪词**，必须翻译成「镜头能拍到的肌肉微动」。本库就是这套「情绪→肌肉」的翻译字典，直接供模块4（提示词生成器）调用。
 
 ## 字段格式
@@ -511,10 +511,150 @@ FACS动作单元(AU) / 肢体语言 / 呼吸与声音特征 /
 - **视觉关键词：** serene content smile, warm peaceful eyes, fully relaxed brow, settled and at ease, quiet satisfaction
 - **表演案例：** 完成心愿后的安然微笑
 
+
+---
+
+# 四、跨文化微表情差异（56–59）
+
+## 56. 东亚含蓄式厌恶（文化微表情）
+- **强度等级：** 轻微反感 → 嫌恶回避
+- **面部分解：** 上唇极轻微上提（几乎不可见）；鼻翼微微收紧但不皱鼻；嘴角轻轻下压；目光快速扫过目标后移开；面部整体保持礼节性克制。与西方"全脸皱鼻+上唇猛提"不同，东亚厌恶主要通过视线回避和嘴角微动作表达
+- **FACS：** AU10(极轻) + AU15(极轻) + 视线回避
+- **肢体语言：** 身体微侧；手自然收起不接触目标物；礼貌后退半步；不直接当面拒绝
+- **呼吸与声音：** 短暂屏息或极轻鼻息；"礼貌的沉默"替代直接批评；可能发出极轻的"嗯…"拖音
+- **持续时间：** 微表情闪现（<0.3s）后迅速恢复中性
+- **易混淆区分：** 与西方厌恶区别——东亚版极度克制，面部肌肉动作幅度极小，像"厌恶被礼貌压下去了"；影视指导应给镜头特写捕捉嘴角/鼻翼微动
+- **视觉关键词：** subtle disgust micro-movement, minimal nose wrinkle, polite aversion, restrained lip curl, gaze avoidance, East Asian restrained expression, barely visible disdain
+- **表演案例：** 宴会上尝到不合口味的食物却维持礼貌微笑
+
+## 57. 拉美热情式惊讶（文化微表情）
+- **强度等级：** 微微讶异 → 高度惊诧
+- **面部分解：** 眉大幅高挑并形成夸张额头横纹；眼大睁但伴随明亮笑意（AU6参与）；嘴大张呈椭圆而非圆形；惊讶后极快伴随双手动作。与欧亚"定格式惊讶"不同，拉美惊讶偏向动态夸张且常带积极情绪预判
+- **FACS：** AU1 + AU2 + AU5 + AU26 + AU6(伴随)
+- **肢体语言：** 双手张开、举过头顶、身体夸张后仰、拍胸口、指向目标物；动作幅度大且多
+- **呼吸与声音：** 大声倒吸气或惊呼"¡Dios mío!"式感叹；语调上翘、音量偏大
+- **易混淆区分：** 与经典惊讶区别——拉美版本动作幅度×3，且惊讶中混有兴奋/期待的正面情感色彩；在中国观众看来可能被误读为"故意做作"
+- **视觉关键词：** exaggerated surprise, wide theatrical eyes, open-mouthed gasp, hands flying up, animated Latin expression, enthusiastic shock
+- **表演案例：** 拉美角色收到意外礼物时的夸张惊呼与手舞足蹈
+
+## 58. 中东礼仪性微笑（文化微表情）
+- **强度等级：** 客套礼 → 热情欢迎
+- **面部分解：** 嘴角对称上扬但幅度中大（介于真笑与假笑之间）；眼周有轻度AU6参与但眼神保持一定距离；眉舒展；面部整体温暖但带礼节感。与"假笑（缺AU6）"不同——中东礼仪笑有真笑成分但受社交规则调节
+- **FACS：** AU12 + AU6(中度) + 眉心完全舒展
+- **肢体语言：** 右手抚胸（手掌贴左胸口的标志礼仪）；微躬身或点头致意；身体前倾表示热情；与对方握手时双手握住对方单手
+- **呼吸与声音：** 温和的问候语、语调缓慢庄重；常伴随祝福语
+- **易混淆区分：** 与"真笑"区别——中东礼仪笑虽含AU6但笑容进入/退出有明显社交节奏；与"假笑"区别——眼部参与真实但受压制
+- **视觉关键词：** warm ceremonial smile, hand on heart gesture, respectful eye engagement, Middle Eastern greeting expression, measured genuine warmth
+- **表演案例：** 中东角色以手抚胸微笑向客人表示欢迎
+
+## 59. 北欧克制式悲伤（文化微表情）
+- **强度等级：** 内心哀痛 → 外显淡漠
+- **面部分解：** 面部几乎保持中性基线——眉内角仅极微上提（AU1极轻）；嘴角无下拉，仅"不笑了"；眼睑不发红但眼神空洞向下45°偏移。与东亚/南欧"含泪啜泣"不同，北欧悲伤的核心是"情绪撤出"而非"情绪外泄"
+- **FACS：** AU1(极轻) + 视线下移 + 面部活动全面减少
+- **肢体语言：** 静止不动；手插口袋或交叠于身前；不寻求肢体接触；可能独自走进另一房间
+- **呼吸与声音：** 呼吸极为平稳但略浅；长时间沉默；声音平淡不带哭腔
+- **持续时间：** 持续状态，缓慢起落；数分钟内无明显变化
+- **易混淆区分：** 与"麻木/心死"区别——北欧克制悲伤是文化习得的情绪管理，内心仍有痛感但不外泄；与"平静"区别——有AU1极微颤动和沉默时间异常
+- **视觉关键词：** stoic grief, barely visible inner brow movement, emotional withdrawal, Nordic restrained sorrow, minimal facial activity, still silence
+- **表演案例：** 北欧角色接到噩耗后安静独坐、面无波澜但久久不动
+
+---
+
+# 五、AI 表情生成常见缺陷与规避（60–64）
+
+## 60. AI缺陷：塑料感笑容（恐怖谷效应）
+- **缺陷描述：** AI生成微笑时，嘴角上拉的肌肉运动曲线过于平滑对称、缺乏真人微笑的微不对称和启停惯性；眼周AU6缺失或过度夸张，导致"眼睛在笑但没灵魂"的恐怖谷效果
+- **出问题部位：** 颧肌收缩曲线（AU6）与嘴角上扬曲线（AU12）的时间同步性——真人微笑时AU6先于AU12启动约0.05s，AI很容易把两者设成全同步
+- **提示词规避策略：** 避免直接写smile；改用"slight asymmetric curve at lip corners"，"eyes crinkling naturally with genuine warmth"，"imperfect human smile with micro-timing offset between eyes and mouth"
+- **规避关键词：** asymmetrical micro-smile, eyes warming before lips, natural crow's feet, organic facial curve, genuine uneven grin, not CG-smooth
+- **实用提示词片段：** "a subtle asymmetrical smile where the left corner lifts slightly before the right, crow's feet appear with 0.05s natural delay after lip movement, avoid uncanny symmetry"
+
+## 61. AI缺陷：死鱼眼/空洞凝视
+- **缺陷描述：** 角色面部在做情绪表达时眼神不跟随——嘴在笑但瞳孔锁定不动、愤怒时眼睛睁大但缺乏焦点移动扫视、悲伤时眼泪流但眼神没有"向内看"的失焦。眼球微动（saccade）和注视点切换是AI最容易忽略的层
+- **出问题部位：** 瞳孔焦点、saccade微幅快动、注视时长分布；真人每200-400ms有一次微扫视，AI生成往往完全缺失
+- **提示词规避策略：** 在提示词中明确标注眼动方向和时间:"gaze shifts from object to camera with slight 0.3s delay"，"eyes darting in micro-saccades during nervous speech"，"pupil defocuses as she looks inward"
+- **规避关键词：** micro-saccade eye movements, shifting focal point, gaze darting subtly, pupil dilation change, natural scanning pattern, not frozen stare
+- **实用提示词片段：** "her gaze continuously shifts in 0.2-0.4s micro-movements scanning the room, pupils contract slightly when focusing on the threat, avoid frozen fixed stare"
+
+## 62. AI缺陷：肢体与面部不同步
+- **缺陷描述：** 面部表情与身体动作之间的因果关系断裂——角色攥拳时面部肌肉却未同步收紧、大笑着拍桌但面部笑容已在手势前0.5s消退、恐惧时身体后退但面部的AU20还没出现。真人肢体-面部情绪是耦合的，AI常把它们当作独立通道生成
+- **出问题部位：** 面部AU激活与肢体动作的时间轴对齐；情感强度在肢体与面部的幅度匹配
+- **提示词规避策略：** 用联动句式标注:"as fists clench, jaw tightens simultaneously"，"smile reaches eyes at the exact moment he opens his arms"，"brows furrow in sync with shoulders tensing"
+- **规避关键词：** synchronized face-body expression, simultaneous clench, emotion cascading from body to face, coupled muscle activation, gesture-facial lock
+- **实用提示词片段：** "when she slams the table with her right hand, her jaw tightens and nostrils flare in perfect sync, the anger travels from hand impact up to her face in one continuous wave"
+
+## 63. AI缺陷：五官过度扭曲（崩溃式表情）
+- **缺陷描述：** 在生成高愤怒/极度恐惧/痛哭等极端情绪时，AI容易把五官推向解剖学不可能的位置——嘴角拉到耳根、眼睛大到眼眶装不下、眉毛挑到发际线……造成"橡皮脸"崩溃效果而非真实的高强度表情
+- **出问题部位：** 各AU的动作幅度在极端值附近的非线性限制；真人肌肉有物理极限（如AU12嘴角上拉最大约45°），AI常无视这些边界
+- **提示词规避策略：** 用解剖级约束标注:"maximum lip corner elevation limited by zygomaticus anatomy"，"brow furrowing within natural orbital rim range"，"mouth open to 2/3 of anatomical maximum"
+- **规避关键词：** anatomically constrained expression, natural muscle range, within physical limits, realistic intense emotion, not exaggerated distortion, humanly possible
+- **实用提示词片段：** "intense anger with jaw clenched within natural masseter contraction range, brow depression limited by orbital bone structure, no rubber-face distortion, maintain anatomical credibility at extreme emotion"
+
+## 64. AI规避：微表情标注总策略
+- **策略描述：** AI视频/图像模型本质是统计拟合，缺乏对"0.04-0.5秒级别微表情"的建模——它们倾向于把每一种情绪都渲染成持续的宏表情。生视频时必须用时间+解剖学约束来绕过这个底层瓶颈
+- **核心原则：** ①永远在提示词中包含时间窗口（"0.3s micro-flash of X before returning to baseline"）；②用AU编号而非情绪词（"AU4+AU7 for 0.2s"而非"angry"）；③始终给一个"基线回归"锚点；④混用矛盾AU人为制造真实感（AU12嘴笑+AU1眉悲）
+- **规避关键词：** micro-expression flash under 0.5s, AU-level granularity, return to neutral baseline, contradictory AU combination, emotion leak only
+- **通用提示词模板：** "[面部区域] undergoes [AU变化] for [0.X秒] then returns to [基线状态], while [另一区域] briefly contradicts with [另一AU], creating a micro-expression leak that betrays the true emotion beneath the surface mask"
+- **视觉关键词：** AU-based prompt engineering, micro-expression temporal annotation, baseline return anchor, contradictory facial cues
+
+---
+
+# 六、复合情绪微表情扩展（65–69）
+
+## 65. 愤怒中的恐惧（受威胁的攻击者）
+- **强度等级：** 低强度压制 → 高强度爆发中的颤栗
+- **面部分解：** 愤怒层（皱眉下压AU4、鼻翼扩张AU10、咬肌鼓动）与恐惧层（眉内角上提AU1、嘴角微横拉AU20、眨眼频率异常增高）同时出现。愤怒主导面部上2/3，恐惧泄漏在嘴和眼周——嘴巴在怒吼但嘴角带着后退的横拉，眼睛在瞪但带有闪避式高频眨眼
+- **FACS：** AU4 + AU10 + AU23（愤怒）∩ AU1 + AU20 + 高频AU45（恐惧泄漏）
+- **肢体语言：** 身体前倾攻击姿态，但脚指向出口方向（恐惧泄漏）；握拳挥出但同时有微幅后退重心
+- **呼吸与声音：** 怒吼声量中带微颤；呼吸急促但有吞咽（喉结滚动泄漏恐惧）
+- **易混淆区分：** 与纯愤怒区别——存在"攻击同时防御"的矛盾体语；瞳孔放大（恐惧）vs 瞳孔缩小（愤怒）的矛盾也可利用
+- **视觉关键词：** anger with fear underneath, aggressive yet trembling mouth, forward body with backward feet, threatening but scared eyes, defensive aggression, flinching glare
+- **表演案例：** 被逼入绝境的反派最后威胁——表面凶狠但眼里已流露恐惧
+
+## 66. 轻蔑中的欣赏（傲娇式矛盾）
+- **强度等级：** 表面不屑 → 难以掩饰的欣赏泄漏
+- **面部分解：** 轻蔑层（单侧嘴角上扬AU12单侧、下巴微抬、眼神俯视）与欣赏层（另一侧眉轻挑AU2单侧、眼神短暂发亮、嘴角另一侧极轻微的正面抽动）的交错。核心是"不对称的双重表情"——左侧脸在骄傲地说不，右侧脸已在偷偷说好
+- **FACS：** 单侧AU12 + 下巴抬（轻蔑）∩ 对侧AU2 + 眼睛短暂发光（欣赏泄漏）
+- **肢体语言：** 嘴上说着"一般般"但身体已经在靠近；抱臂但手指轻敲对方方向；转身要走又回头看
+- **呼吸与声音：** 嗤笑声尾音上扬（不屑→认可）；"哼，还算有点意思"的语调矛盾
+- **易混淆区分：** 关键识别——同一个人的左右半脸呈现不同情绪，且身体姿态与面部表情产生"推拉矛盾"
+- **视觉关键词：** tsundere micro-expression, contempt masking admiration, one side smirking other side softening, reluctant appreciation leak, half-face contradiction
+- **表演案例：** 傲娇角色嘴上批评但眼里藏不住欣赏（动漫/青春剧高频用）
+
+## 67. 悲喜交加（含泪的狂笑）
+- **强度等级：** 笑中藏泪 → 完全交叠的悲喜不能分离
+- **面部分解：** 喜悦层（颧肌上提AU6、嘴角上扬AU12、露齿）与悲伤层（眉内角上提AU1、下唇颤抖、眼眶盈泪）完全叠加。是真笑（AU6活跃）+真悲伤（AU1+泪）的同步共存，没有任何伪装成分——颧肌在往上推、眉内角也在往上提，面部上下方向相反的力量制造出极具张力的"撕裂式"表情
+- **FACS：** AU6 + AU12 + AU25(露齿大笑) ∩ AU1 + 泪 + 下唇颤
+- **肢体语言：** 笑到身体颤抖但手捂胸口（保护性）；大笑躺倒但手指抠紧地面；笑与抽噎交替
+- **呼吸与声音：** 笑声与抽气声交替、无法区分笑与哭的声音、断断续续的换气
+- **易混淆区分：** 与"强颜欢笑"区别——悲喜交加中喜悦和悲伤都是真实的、同等强度的，没有伪装成分；是真笑真哭同时发生
+- **视觉关键词：** genuine laugh and cry simultaneous, tears streaming through smile, laughing while sobbing, eyes crinkling with joy while overflowing with grief, emotionally torn face
+- **表演案例：** 失散多年的亲人在最不堪的时刻重逢，笑着流泪说不出话
+
+## 68. 嫉妒中的倾慕（被吸引又痛苦）
+- **强度等级：** 暗含酸涩 → 倾慕与憎恨的漩涡
+- **面部分解：** 嫉妒层（眉头微压AU4、目光紧盯、咬牙AU23）与倾慕层（眼神发亮无法移开、嘴角不自觉的轻微上扬AU12、面部不自觉的柔软瞬间）交替闪现。核心节奏："盯着看→面部收紧→不自觉软下来→发现自己在软→又收紧"，循环往复
+- **FACS：** AU4 + AU7 + AU23（嫉妒）↔ AU12(轻) + AU6(微) + 凝视发亮（倾慕泄漏）
+- **肢体语言：** 不自觉朝对方方向倾身又猛收回；手伸向对方方向又攥紧收回；反复整理自己的衣物或头发
+- **呼吸与声音：** 酸涩的轻"哼"后沉默注视；想说什么又咽回去（吞咽）；语带酸意但尾音变软
+- **易混淆区分：** 与纯嫉妒区别——有反复出现的"不自觉地微笑泄漏"和"被吸引式身体靠近"；与暗恋区别——暗恋是甜中带羞，嫉妒倾慕是酸中带甜
+- **视觉关键词：** jealous admiration oscillation, watching through pain, hard then soft then hard, conflicting attraction, bitter-sweet stare, being drawn in against will
+- **表演案例：** 看到心上人对别人温柔——眼里既酸涩又忍不住欣赏对方的美好
+
+## 69. 不甘后的释然（认命式苦笑）
+- **强度等级：** 挣扎后的松手 → 痛中取静的放下
+- **面部分解：** 不甘层（咬肌紧绷鼓动AU17+AU23、眼眶微红含泪、眉头下压AU4）逐步消解，转化为释然层（眉缓缓舒展、咬肌松开、嘴由抿紧转为微微松开——不是微笑，只是"不抿了"、眼神从紧盯转为远眺）。关键时间线：面部肌肉逐层松开的顺序——先松下巴→再松眉→最后松开嘴角
+- **FACS：** (AU17 + AU23 + AU4) → (逐层松开至基线) + 长呼气 + 远眺
+- **肢体语言：** 攥紧的拳头缓缓松开垂到身侧；从紧绷前倾到慢慢靠回椅背；轻摇头后静止
+- **呼吸与声音：** 一声深长叹息（把最后的挣扎呼出去）；低声自语"命吧""算了"；声音从绷紧恢复到温和平淡
+- **易混淆区分：** 与"失望"区别——不甘后的释然有"从紧到松"的动态过程，失望是单向下沉；与"释然/如释重负"区别——此条目是"没有解决问题但接受了无解"，释然是"问题已解决"
+- **视觉关键词：** gradual muscle release, accepting the unacceptable, letting go of resentment layer by layer, softening from jaw to brow, quiet surrender, bittersweet release
+- **表演案例：** 努力多年后发现无论如何也赢不了——缓缓松开拳头，望着远方轻轻说了声"算了"
+
 ---
 
 ## 使用提示
 - **强度 = 微动作的幅度 × 数量**：隐忍=幅度小、单一部位；爆发=幅度大、多部位联动。
 - **复合情绪靠"矛盾"取胜**：嘴笑+眉悲=强颜欢笑，是最高级的表演细节。
 - **微表情泄漏**（一闪而过的真实情绪）是「撒谎/强装」类的灵魂，生视频时标注"micro-expression flash"。
-- 本库现共 **55 条**：基础情绪 8 + 复合情绪 16 + 进阶/复杂情绪 31，覆盖影视/短剧绝大多数表演场景。
+- 本库现共 **69 条**：基础情绪 8 + 复合情绪 16 + 进阶/复杂情绪 31 + 跨文化微表情 4 + AI 生成缺陷与规避 5 + 复合情绪微表情扩展 5，覆盖影视/短剧绝大多数表演场景。
