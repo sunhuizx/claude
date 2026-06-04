@@ -12,5 +12,11 @@
 - **SC-308 特写 CU**：整张脸/单物充满画面｜极亲近/情绪最大化｜强情绪/强调/揪心悬念｜85mm大虚化眼神光｜适:情绪高点/道具 慎:久用疲劳｜`close-up, face filling frame, shallow DOF`｜关联 SC-104/201/112
 - **SC-309 大特写 ECU**：眼睛/嘴/局部｜极致逼近/张力顶点｜极端情绪/揭示微表情｜100mm/微距极浅景深｜适:临界情绪/真相前 慎:常规/久用｜`extreme close-up, eyes/detail, macro`｜关联 SC-121/128
 - **SC-310 微距 Macro**：极微小细节(泪滴/纹理)｜放大不可见/质感隐喻｜质感/隐喻/伏笔/产品｜微距极浅景深质感光｜适:产品质感/细节隐喻 慎:叙事推进｜`macro shot, tiny detail, texture`｜关联 SC-112/136/237
+- **SC-311 AI大特写安全框 AI Safe Close-Up**：面部占60%-80%/画框不裁断五官｜极亲近/情绪最大化/AI面部表现最优范围｜强情绪独角戏/独白/AI面部最佳景别｜AI默认'肖像'等效焦段/避免耳朵切画框｜适:AI人脸生成最稳/情绪独白 慎:多人/大动作/侧脸极端角度｜`ai safe close-up, face 60-80% frame, best ai face range`｜关联 SC-308/309/104/112
+- **SC-312 环境人像黄金比 Environmental Portrait Golden Ratio**：人物占30%-40%/环境60%-70%｜亲切兼顾环境/故事感/面部与场景最佳平衡(利AI面部+AI场景并重)｜角色处境介绍/氛围肖像/身份暗示｜35-50mm/环境清晰但不过锐/人物面部结构完整｜适:AI兼顾面部环境/角色塑造/环境叙事 慎:纯情绪爆发/极简｜`environmental portrait, 30-40% figure, face and scene balance`｜关联 SC-302/303/119/127
+- **SC-313 微距景观特写 Macro Beyond Eye**：超越人眼极限微距(利AI无物理镜头焦段限制)｜极致细节/放大真相/质感隐喻从未得见｜揭示/悬疑/产品质感/细节伏笔｜虚拟'超越微距'/极浅景深/背景完全虚化｜适:AI无限制微距/产品质感特写 慎:叙事推进｜`macro beyond human eye, ai unlimited lens, extreme detail`｜关联 SC-310/112/136
+- **SC-314 极远融入式景别 Ultra-Long Merge Shot**：人物几乎消失融入环境(<5%画面占比)｜极致渺小/孤独/天人合一(完全规避AI面部缺陷)｜史诗开场/绝境/孤独/环境定调/告别｜超广角/环境绝对主导/人物为点缀尺标｜适:AI完全规避面部/史诗远景定场 慎:任何情绪表达/人物｜`ultra-long merge shot, figure almost invisible, environment dominant`｜关联 SC-301/202/208/103
+- **SC-315 动态景别渐变 Dynamic Shot Size Ramp**：全景→中景→近景→特写缓推(利AI稳定运动/景别间过渡)｜逐步亲近/情感升温/叙事推进(利AI最稳定景别变化)｜情绪渐进/关键陈述/独白高潮/逐步揭露真相｜规划缓推全程/每级景别停留约2-3秒｜适:AI最稳动态/渐进叙事/关键对白 慎:节奏突变需求｜`dynamic shot size ramp, wide to close gradual push, smooth transition`｜关联 SC-305/306/307/308/134/135
+- **SC-316 AI竖屏安全框 AI Vertical Safe Frame**：9:16竖屏/主体居中偏上/上下留信息空间(利短视频AI生成)｜亲近/手持感/社媒距离/竖屏专属叙事｜短视频/口播/竖屏广告/AI竖屏优先输出｜竖屏9:16/主体占中间约50%/上方标题空/下方字幕位｜适:短视频平台/手机竖屏/AI竖屏管线 慎:横屏影院/宽幅史诗｜`ai vertical 9:16 safe frame, short video portrait, mobile first`｜关联 SC-501/502/521/135
 
-> 景别本质即这10级(大远景→微距),摄影/电影通用标准,已穷尽。
+> 景别本质即这16级(含6种AI专用景别),覆盖传统摄影+AI生成最优景别策略。
