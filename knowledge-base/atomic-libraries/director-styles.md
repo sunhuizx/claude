@@ -1,6 +1,6 @@
 # 导演风格数据库（Director Style Database）
 
-> 原子库 · 共 60 位（国际46 + 华语14）｜ 用于"一键套用某导演的视觉与叙事风格"。
+> 原子库 · 共 70 位（国际46 + 华语14 + 新增AI/技术型·亚洲·纪录/实验10）｜ 用于"一键套用某导演的视觉与叙事风格"。
 > 供模块4调用：把 `模仿提示词` 拼进生图/生视频提示词，即可逼近该导演质感。
 
 ## 字段格式
@@ -80,8 +80,21 @@
 59. 庵野秀明 Hideaki Anno｜新世纪福音战士/真实之影｜⭐密集文字定格·凌厉快切·实景质感·意识流留白长镜｜高对比·神学符号·冷暖极端｜心理创伤/孤独/末世/意识剖析｜`Anno rapid text-card cuts, freeze frames, psychological montage, apocalyptic, 2D anime`｜动画/科幻/心理
 60. 汤浅政明 Masaaki Yuasa｜恶魔人crybaby/乒乓/春宵苦短｜⭐夸张变形流动作画·超现实·扭曲透视·实验色彩｜大胆撞色·迷幻高饱和·扭曲｜情欲与暴力/生命力/超现实表现｜`Yuasa fluid distorted animation, surreal warped perspective, psychedelic bold color, 2D anime`｜动画/实验/超现实
 
+## 五、AI/技术型·亚洲拓展·纪录片/实验（61–70）
+
+61. 加雷斯·爱德华兹 Gareth Edwards｜AI创世者/哥斯拉/侠盗一号｜⭐巨物渺小人类·低角度仰拍巨像·真实感VFX合成·克制叙描｜自然光·低饱和冷灰·大气迷雾｜科技伦理/人性与巨物/希望微光｜`Gareth Edwards giant beings, tiny human scale, low-angle awe, realistic VFX, atmospheric haze`｜科幻/灾难/巨物
+62. 亚历克斯·加兰 Alex Garland｜机械姬/湮灭/美国内战｜冷峻人机对话·镜像反射·极简封闭空间·缓推凝视｜极简白/冷蓝·实验室冷光·自然与合成对撞｜AI意识/身份/自毁/人造与自然｜`Alex Garland clinical AI, mirror reflections, minimalist sci-fi, cold sterile, existential`｜科幻/心理惊悚/哲思
+63. 李沧东 Lee Chang-dong｜燃烧/诗/密阳｜自然主义手持·长镜跟随·空镜留白·平实克制｜自然光·低饱和现实·韩国郊野质感｜阶层/愤怒/存在空虚/社会边缘人｜`Lee Chang-dong naturalistic handheld, long takes, muted realism, slow-burn social, poetic restraint`｜剧情/社会/文艺
+64. 阿彼察邦·韦拉斯哈古 Apichatpong Weerasethakul｜能召回前世的布米叔叔/记忆/热带疾病｜⭐极慢长镜·丛林自然·超现实与日常并置·静默凝视｜自然光·热带绿色潮湿·朦胧迷离｜灵性/记忆/自然·人性边界｜`Apichatpong slow cinema, tropical jungle, surreal everyday, spiritual, meditative stillness`｜文艺/实验/超现实
+65. 阿斯哈·法哈蒂 Asghar Farhadi｜一次别离/推销员/关于伊丽｜⭐道德困境·室内对峙调度·群像式对话·手持跟拍走动｜自然光·写实室内暖调·伊朗日常｜道德灰色/家庭裂痕/谎言与尊严｜`Asghar Farhadi moral dilemma, handheld indoor tracking, ensemble dialogue, social realism`｜剧情/家庭/社会
+66. 陈英雄 Tran Anh Hung｜青木瓜之味/三轮车夫/挪威的森林｜慢镜头感官美学·微观特写(食物/触觉)·静谧构图·色彩丰盈｜浓郁东南亚暖调·青绿金黄饱和·热带湿润｜感官记忆/日常生活/人与环境诗意｜`Tran Anh Hung slow-mo sensory, micro close-ups food texture, lush saturated tropical, poetic stillness`｜文艺/感官/东方生活
+67. 沃纳·赫尔佐格 Werner Herzog｜陆上行舟/灰熊人/阿基尔·上帝的愤怒｜⭐史诗疯狂·极端实景·不可控自然·人物直视镜头独白｜自然光·原始丛林河流·厚重原始｜人类野心与自然/疯狂边缘/文明与原始｜`Werner Herzog epic madness, extreme real locations, untamed nature, hypnotic monologue, raw`｜纪录片/冒险/剧情
+68. 阿涅斯·瓦尔达 Agnès Varda｜拾穗者/五至七时的克莱奥/天涯沦落女｜手持摄像机·街拍/主观介入·拼贴/装置感·自反式旁白｜自然光·明快鲜亮·法式日常色彩｜女性视角/时间/边缘者/生命与死亡｜`Agnès Varda handheld documentary, subjective intervention, collage, feminist, playful warmth`｜纪录片/女性/文艺
+69. 弗雷德里克·怀斯曼 Frederick Wiseman｜社会福利/国家美术馆/伯克利｜⭐纯观察式·无旁白无采访·机构空间长镜·剪辑为叙｜自然光·真实环境·不修饰｜制度与人性/权力/群体行为/秩序｜`Frederick Wiseman fly-on-the-wall, no narration, institutional observation, verite long takes`｜纪录片/社会观察
+70. 迈克尔·哈内克 Michael Haneke｜爱/白丝带/隐藏摄影机｜⭐固定长镜·冷静行刑式构图·暴力发生在画外·拒绝配乐操纵｜自然冷峻·北欧式低饱和·灰暗｜暴力与媒介/中产暗面/原罪/叙事伦理｜`Michael Haneke static long take, violence off-screen, clinical cold, no manipulative score, unsettling`｜心理/社会/惊悚
+
 ## 使用提示
 - 风格选用速记：极致色彩→张艺谋/王家卫/阿莫多瓦；对称强迫美→库布里克/韦斯·安德森/兰斯莫斯；冷峻阴郁→芬奇/杜琪峰；自然诗意→马力克/侯孝贤/塔可夫斯基；梦境超现实→林奇/毕赣/今敏/费里尼；暴力浪漫→吴宇森/朴赞郁；霓虹暴力美学→雷弗恩；史诗宏大→维伦纽瓦/诺兰；西部仪式→莱昂内；升格史诗→施奈德；爆炸商业→迈克尔·贝；快剪戏仿→埃德加·赖特/盖·里奇；白昼恐怖→阿里·艾斯特；动画光影天空→新海诚；动画哲思→押井守/庵野秀明。
 - 组合调用：导演风格 = 该导演常用「灯光+构图+运镜+色彩」组合，可与对应原子库交叉引用。
 - 生图/生视频：把 `模仿提示词` 直接拼入，再叠加题材场景描述即可；动画导演务必前置 `2D anime style`。
-- 共60位：国际46（含日本动画5）+ 华语14。
+- 共70位：国际46（含日本动画5）+ 华语14 + AI/技术型·亚洲·纪录/实验10。
